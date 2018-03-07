@@ -1,0 +1,70 @@
+<!doctype html>
+<html><head>
+<style>
+img {
+	width: 100%;
+}
+</style>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script>
+var signal = [];
+
+var play = function() {
+	if (!window.AudioContext) {
+		if (!window.webkitAudioContext) {
+			alert("Your browser sucks because it does NOT support any AudioContext!");
+			return;
+		}
+		window.AudioContext = window.webkitAudioContext;
+	}
+
+	var ctx = new AudioContext();
+	var n = signal.length;
+	var buffer = ctx.createBuffer(1, n, 44100);
+	var channel = buffer.getChannelData(0);
+	for (var i = 0; i < n; i++) {
+		channel[i] = 0.9 * signal[i];
+	}
+
+	var node = ctx.createBufferSource(0);
+	node.buffer = buffer;
+	node.connect(ctx.destination);
+	node.start();
+};
+
+$(function() {
+	$("#play-button").attr("disabled", "disabled");
+
+	$("#camera-input").on("change", function(e) {
+		signal = [];
+		
+		var file = e.originalEvent.target.files[0];
+		var reader = new FileReader();
+
+		reader.onloadend = function(event) {
+			if (event.target.readyState == FileReader.DONE) {
+				var data = event.target.result;
+				var array = new Int8Array(data);
+				for (var i = 54; i < event.target.result.byteLength; i += 2) {
+					var byte_1 = array[i];
+					var byte_2 = array[i + 1];
+					var sample = (byte_2 << 8) + byte_1;
+					var factor = (Math.pow(2, 16) - 1.0) / 2.0;
+					signal.push(sample / factor - 1.0);
+				}
+
+				$("#play-button").removeAttr("disabled");
+			}
+		};
+
+		if (file) {
+			var blob = file.slice(0, file.size);
+			reader.readAsArrayBuffer(blob);
+		}
+	});
+});
+</script>
+</head><body>
+<input type="file" capture="camera" accept="image/*" id="camera-input" name="camera-input">
+<button id="play-button" onclick="play();" disabled>play</button>
+</body></html>
