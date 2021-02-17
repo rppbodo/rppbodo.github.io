@@ -1,8 +1,21 @@
 <!doctype html>
 <html><head>
-<title>music similarity models</title>
+<meta charset="utf-8">
+<title>Music Similarity Models</title>
+<link rel="stylesheet" type="text/css" href="./d3js.css">
+<link rel="stylesheet" type="text/css" href="./music-similarity-models.css">
+<script type="module">
+
+import define from "./music-similarity-models.js";
+import {Runtime, Library, Inspector} from "./d3js.js";
+
+const runtime = new Runtime();
+const main = runtime.module(define, Inspector.into(document.getElementById("chart")));
+
+</script>
 </head><body>
-<table>
+<div id="chart"></div>
+<div id="table-container"><table>
 <tr><th>extractor</th><th>aggregator</th><th>distance</th></tr>
 <tr><td>beat_synchronous_chroma_cens</td><td>basic_stats_1</td><td>chebyshev_distance</td></tr>
 <tr><td>beat_synchronous_chroma_cens</td><td>basic_stats_1</td><td>chebyshev_distance_dot_product_circular_shifts</td></tr>
@@ -694,5 +707,5 @@
 <tr><td>zero_crossing_rate</td><td>vector_quantization_default</td><td>manhattan_distance</td></tr>
 <tr><td>zero_crossing_rate</td><td>vector_quantization</td><td>euclidean_distance</td></tr>
 <tr><td>zero_crossing_rate</td><td>vector_quantization</td><td>manhattan_distance</td></tr>
-</table>
+</table></div>
 </body></html>
