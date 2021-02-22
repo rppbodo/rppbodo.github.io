@@ -1,6 +1,10 @@
-#table-container { text-align: center; }
-table {
-	display: inline;
-	text-align: left;
+th { cursor: pointer; }
+th > * { vertical-align:  bottom; }
+.arrows {
+	display: inline-block;
+	width: 19px;
+	height: 19px;
+	background: url("./unsorted.png") center center no-repeat;
 }
-th, td { padding-right: 20px; }
+.th_sort_asc { background-image: url("./sort_asc.png"); }
+.th_sort_desc { background-image: url("./sort_desc.png"); }

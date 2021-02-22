@@ -99,10 +99,10 @@ function id(node) {
 }
 )});
   main.variable().define("colorin", function(){return(
-"#0059FF"
+"#1f77b4"
 )});
   main.variable().define("colorout", function(){return(
-"#FFA500"
+"#d62728"
 )});
   main.variable().define("colornone", function(){return(
 "#ccc"
