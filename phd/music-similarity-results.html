@@ -20,19 +20,6 @@ var getCellValue = function(row, index) {
 };
 
 var onLoad = function() {
-	$(".nav-link").click(function() {
-		$(".nav-link").removeClass("active");
-		$(this).addClass("active");
-		var index = $(this).parents().eq(0).index();
-		if (index == 0) {
-			$("#chart-container").show();
-			$("#table-container").hide();
-		} else {
-			$("#chart-container").hide();
-			$("#table-container").show();
-		}
-	});
-	
 	$("th").each(function() {
 		$(this).append("<div class=\"arrows\"></div>");
 	});
@@ -56,11 +43,7 @@ var onLoad = function() {
 };
 </script>
 </head><body onLoad="onLoad();">
-<ul class="nav nav-tabs">
-<li class="nav-item"><a class="nav-link active" href="#">Chart</a></li>
-<li class="nav-item"><a class="nav-link" href="#">Table</a></li>
-</ul>
-<div id="chart-container"></div>
+<div id="chart"></div>
 <div id="table-container">
 <table class="table table-hover">
 	<thead>
@@ -765,7 +748,7 @@ import define from "./music-similarity-models.js";
 import {Runtime, Library, Inspector} from "./d3js.js";
 
 const runtime = new Runtime();
-const main = runtime.module(define, Inspector.into(document.getElementById("chart-container")));
+const main = runtime.module(define, Inspector.into(document.getElementById("chart")));
 
 </script>
 </body></html>
