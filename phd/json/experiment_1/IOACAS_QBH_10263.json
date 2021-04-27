@@ -1,0 +1,4082 @@
+{ "results": [
+{
+	"iicsr": 0.4170788447886377,
+	"extractor": "pitch_contour_segmentation",
+	"aggregator": "octave_abstraction",
+	"distance": "lcs_circular_max"
+},
+{
+	"iicsr": 1.5457869900864136,
+	"extractor": "pitch_contour_segmentation",
+	"aggregator": "octave_abstraction",
+	"distance": "lcs_circular_min"
+},
+{
+	"iicsr": 0.5946904253774029,
+	"extractor": "pitch_contour_segmentation",
+	"aggregator": "octave_abstraction",
+	"distance": "lcs_circular_mean"
+},
+{
+	"iicsr": 0.5522602993257119,
+	"extractor": "pitch_contour_segmentation",
+	"aggregator": "octave_abstraction",
+	"distance": "levenshtein_circular_max"
+},
+{
+	"iicsr": 0.9478610289435779,
+	"extractor": "pitch_contour_segmentation",
+	"aggregator": "octave_abstraction",
+	"distance": "levenshtein_circular_min"
+},
+{
+	"iicsr": 0.4785016635204553,
+	"extractor": "pitch_contour_segmentation",
+	"aggregator": "octave_abstraction",
+	"distance": "levenshtein_circular_mean"
+},
+{
+	"iicsr": 0.5808949591617881,
+	"extractor": "pitch_contour_segmentation",
+	"aggregator": "interval_abstraction",
+	"distance": "lcs_max"
+},
+{
+	"iicsr": 1.6641893151902698,
+	"extractor": "pitch_contour_segmentation",
+	"aggregator": "interval_abstraction",
+	"distance": "lcs_min"
+},
+{
+	"iicsr": 0.8147222583249945,
+	"extractor": "pitch_contour_segmentation",
+	"aggregator": "interval_abstraction",
+	"distance": "lcs_mean"
+},
+{
+	"iicsr": 0.7649376020097195,
+	"extractor": "pitch_contour_segmentation",
+	"aggregator": "interval_abstraction",
+	"distance": "levenshtein_max"
+},
+{
+	"iicsr": 0.9561050025530744,
+	"extractor": "pitch_contour_segmentation",
+	"aggregator": "interval_abstraction",
+	"distance": "levenshtein_min"
+},
+{
+	"iicsr": 0.5361483813450223,
+	"extractor": "pitch_contour_segmentation",
+	"aggregator": "interval_abstraction",
+	"distance": "levenshtein_mean"
+},
+{
+	"iicsr": 0.309238290413739,
+	"extractor": "pitch_contour_segmentation",
+	"aggregator": "pitch_contour_3_levels",
+	"distance": "lcs_max"
+},
+{
+	"iicsr": 1.2326243926701488,
+	"extractor": "pitch_contour_segmentation",
+	"aggregator": "pitch_contour_3_levels",
+	"distance": "lcs_min"
+},
+{
+	"iicsr": 0.44872744025379224,
+	"extractor": "pitch_contour_segmentation",
+	"aggregator": "pitch_contour_3_levels",
+	"distance": "lcs_mean"
+},
+{
+	"iicsr": 0.3690505543034179,
+	"extractor": "pitch_contour_segmentation",
+	"aggregator": "pitch_contour_3_levels",
+	"distance": "levenshtein_max"
+},
+{
+	"iicsr": 0.9514325383805308,
+	"extractor": "pitch_contour_segmentation",
+	"aggregator": "pitch_contour_3_levels",
+	"distance": "levenshtein_min"
+},
+{
+	"iicsr": 0.41758282254311546,
+	"extractor": "pitch_contour_segmentation",
+	"aggregator": "pitch_contour_3_levels",
+	"distance": "levenshtein_mean"
+},
+{
+	"iicsr": 0.2912928150773134,
+	"extractor": "pitch_contour_segmentation",
+	"aggregator": "pitch_contour_5_levels",
+	"distance": "lcs_max"
+},
+{
+	"iicsr": 1.0873845450298933,
+	"extractor": "pitch_contour_segmentation",
+	"aggregator": "pitch_contour_5_levels",
+	"distance": "lcs_min"
+},
+{
+	"iicsr": 0.4204767669619221,
+	"extractor": "pitch_contour_segmentation",
+	"aggregator": "pitch_contour_5_levels",
+	"distance": "lcs_mean"
+},
+{
+	"iicsr": 0.35899253187532826,
+	"extractor": "pitch_contour_segmentation",
+	"aggregator": "pitch_contour_5_levels",
+	"distance": "levenshtein_max"
+},
+{
+	"iicsr": 0.9564670154909974,
+	"extractor": "pitch_contour_segmentation",
+	"aggregator": "pitch_contour_5_levels",
+	"distance": "levenshtein_min"
+},
+{
+	"iicsr": 0.40670613830879765,
+	"extractor": "pitch_contour_segmentation",
+	"aggregator": "pitch_contour_5_levels",
+	"distance": "levenshtein_mean"
+},
+{
+	"iicsr": 1.1500573397477256,
+	"extractor": "pitch_contour_segmentation",
+	"aggregator": "markov_chain",
+	"distance": "circular_euclidean"
+},
+{
+	"iicsr": 1.1481340582743773,
+	"extractor": "pitch_contour_segmentation",
+	"aggregator": "markov_chain",
+	"distance": "circular_manhattan"
+},
+{
+	"iicsr": 1.1500573397477254,
+	"extractor": "pitch_contour_segmentation",
+	"aggregator": "markov_chain",
+	"distance": "circular_chebyshev"
+},
+{
+	"iicsr": 1.1774089297227581,
+	"extractor": "pitch_contour_segmentation",
+	"aggregator": "markov_chain",
+	"distance": "circular_cosine"
+},
+{
+	"iicsr": 0.8697427933192491,
+	"extractor": "rhythm_pattern",
+	"aggregator": "bypass",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.9148811538617183,
+	"extractor": "rhythm_pattern",
+	"aggregator": "bypass",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 1.036394911715273,
+	"extractor": "rhythm_pattern",
+	"aggregator": "bypass",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 1.0530484261550086,
+	"extractor": "rhythm_pattern",
+	"aggregator": "bypass",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.869855966813514,
+	"extractor": "rhythm_histogram",
+	"aggregator": "bypass",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.916742922721426,
+	"extractor": "rhythm_histogram",
+	"aggregator": "bypass",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.9950233338916847,
+	"extractor": "rhythm_histogram",
+	"aggregator": "bypass",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.8300766023623302,
+	"extractor": "rhythm_histogram",
+	"aggregator": "bypass",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.9058809805628696,
+	"extractor": "temporal_rhythm_histogram",
+	"aggregator": "bypass",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.9945312409303809,
+	"extractor": "temporal_rhythm_histogram",
+	"aggregator": "bypass",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 1.0074434784410644,
+	"extractor": "temporal_rhythm_histogram",
+	"aggregator": "bypass",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.7756184710906608,
+	"extractor": "temporal_rhythm_histogram",
+	"aggregator": "bypass",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 1.0132747870222987,
+	"extractor": "statistical_spectrum_descriptor",
+	"aggregator": "bypass",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 1.0507825889772804,
+	"extractor": "statistical_spectrum_descriptor",
+	"aggregator": "bypass",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 1.0566282497289925,
+	"extractor": "statistical_spectrum_descriptor",
+	"aggregator": "bypass",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.35651261853250876,
+	"extractor": "statistical_spectrum_descriptor",
+	"aggregator": "bypass",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 1.0415248276584155,
+	"extractor": "temporal_statistical_spectrum_descriptor",
+	"aggregator": "bypass",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 1.0782878162404217,
+	"extractor": "temporal_statistical_spectrum_descriptor",
+	"aggregator": "bypass",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 1.1163162272576903,
+	"extractor": "temporal_statistical_spectrum_descriptor",
+	"aggregator": "bypass",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.130758295436397,
+	"extractor": "temporal_statistical_spectrum_descriptor",
+	"aggregator": "bypass",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 1.0173599616745679,
+	"extractor": "modulation_variance_descriptor",
+	"aggregator": "bypass",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 1.0783950478635616,
+	"extractor": "modulation_variance_descriptor",
+	"aggregator": "bypass",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 1.2005708945494864,
+	"extractor": "modulation_variance_descriptor",
+	"aggregator": "bypass",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 1.0265188667759684,
+	"extractor": "modulation_variance_descriptor",
+	"aggregator": "bypass",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.8331200201164592,
+	"extractor": "spectral_centroid",
+	"aggregator": "basic_stats_1",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.8505600560530219,
+	"extractor": "spectral_centroid",
+	"aggregator": "basic_stats_1",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.8894654933419261,
+	"extractor": "spectral_centroid",
+	"aggregator": "basic_stats_1",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 1.0101975129409138,
+	"extractor": "spectral_centroid",
+	"aggregator": "basic_stats_1",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.9624710051627664,
+	"extractor": "spectral_centroid",
+	"aggregator": "basic_stats_2",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.9728369359158072,
+	"extractor": "spectral_centroid",
+	"aggregator": "basic_stats_2",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.9813516177903279,
+	"extractor": "spectral_centroid",
+	"aggregator": "basic_stats_2",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 1.050449737589989,
+	"extractor": "spectral_centroid",
+	"aggregator": "basic_stats_2",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.8667674768133077,
+	"extractor": "spectral_centroid",
+	"aggregator": "diff_stats_1",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.8536223315373374,
+	"extractor": "spectral_centroid",
+	"aggregator": "diff_stats_1",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.8895604620138943,
+	"extractor": "spectral_centroid",
+	"aggregator": "diff_stats_1",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 1.0079141776833365,
+	"extractor": "spectral_centroid",
+	"aggregator": "diff_stats_1",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.9434748589415,
+	"extractor": "spectral_centroid",
+	"aggregator": "diff_stats_2",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.9488999351871292,
+	"extractor": "spectral_centroid",
+	"aggregator": "diff_stats_2",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.9393586333185918,
+	"extractor": "spectral_centroid",
+	"aggregator": "diff_stats_2",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.9578324260572381,
+	"extractor": "spectral_centroid",
+	"aggregator": "diff_stats_2",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.9638658321750856,
+	"extractor": "spectral_centroid",
+	"aggregator": "gaussian_mixture_model_default",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.9691413714584927,
+	"extractor": "spectral_centroid",
+	"aggregator": "gaussian_mixture_model_default",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.9528446746894518,
+	"extractor": "spectral_centroid",
+	"aggregator": "gaussian_mixture_model_default",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.6506480715396236,
+	"extractor": "spectral_centroid",
+	"aggregator": "gaussian_mixture_model_default",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.6252378837562192,
+	"extractor": "spectral_centroid",
+	"aggregator": "vector_quantization",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.9341722842093718,
+	"extractor": "spectral_centroid",
+	"aggregator": "vector_quantization",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.8923227260800995,
+	"extractor": "spectral_centroid",
+	"aggregator": "vector_quantization",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.335650258297127,
+	"extractor": "spectral_centroid",
+	"aggregator": "vector_quantization",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.6169669528899532,
+	"extractor": "spectral_centroid",
+	"aggregator": "vector_quantization_default",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.8833464016486755,
+	"extractor": "spectral_centroid",
+	"aggregator": "vector_quantization_default",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 1.013689198381942,
+	"extractor": "spectral_centroid",
+	"aggregator": "vector_quantization_default",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.5833566074168588,
+	"extractor": "spectral_centroid",
+	"aggregator": "vector_quantization_default",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.5956636910842672,
+	"extractor": "spectral_bandwidth",
+	"aggregator": "basic_stats_1",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.6303596248037898,
+	"extractor": "spectral_bandwidth",
+	"aggregator": "basic_stats_1",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.7757760126212856,
+	"extractor": "spectral_bandwidth",
+	"aggregator": "basic_stats_1",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.9379799789241752,
+	"extractor": "spectral_bandwidth",
+	"aggregator": "basic_stats_1",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.5466350861562506,
+	"extractor": "spectral_bandwidth",
+	"aggregator": "basic_stats_2",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.5126501751884052,
+	"extractor": "spectral_bandwidth",
+	"aggregator": "basic_stats_2",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.5282107758996331,
+	"extractor": "spectral_bandwidth",
+	"aggregator": "basic_stats_2",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 1.0360201325834244,
+	"extractor": "spectral_bandwidth",
+	"aggregator": "basic_stats_2",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.6000943232248693,
+	"extractor": "spectral_bandwidth",
+	"aggregator": "diff_stats_1",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.6311379202739452,
+	"extractor": "spectral_bandwidth",
+	"aggregator": "diff_stats_1",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.7757966340865491,
+	"extractor": "spectral_bandwidth",
+	"aggregator": "diff_stats_1",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.9399676644653225,
+	"extractor": "spectral_bandwidth",
+	"aggregator": "diff_stats_1",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.3699242253563266,
+	"extractor": "spectral_bandwidth",
+	"aggregator": "diff_stats_2",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.3426174214668279,
+	"extractor": "spectral_bandwidth",
+	"aggregator": "diff_stats_2",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.23763627388917588,
+	"extractor": "spectral_bandwidth",
+	"aggregator": "diff_stats_2",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.8624331854758773,
+	"extractor": "spectral_bandwidth",
+	"aggregator": "diff_stats_2",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.9409386282245773,
+	"extractor": "spectral_bandwidth",
+	"aggregator": "gaussian_mixture_model_default",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.9316293024147215,
+	"extractor": "spectral_bandwidth",
+	"aggregator": "gaussian_mixture_model_default",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.9049067833311685,
+	"extractor": "spectral_bandwidth",
+	"aggregator": "gaussian_mixture_model_default",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.9575062317701926,
+	"extractor": "spectral_bandwidth",
+	"aggregator": "gaussian_mixture_model_default",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.05817245424379687,
+	"extractor": "spectral_bandwidth",
+	"aggregator": "vector_quantization",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.8822524242287045,
+	"extractor": "spectral_bandwidth",
+	"aggregator": "vector_quantization",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.885910710666184,
+	"extractor": "spectral_bandwidth",
+	"aggregator": "vector_quantization",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.030019205115308246,
+	"extractor": "spectral_bandwidth",
+	"aggregator": "vector_quantization",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.22124511848435033,
+	"extractor": "spectral_bandwidth",
+	"aggregator": "vector_quantization_default",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.5596172981595721,
+	"extractor": "spectral_bandwidth",
+	"aggregator": "vector_quantization_default",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.5487986292798236,
+	"extractor": "spectral_bandwidth",
+	"aggregator": "vector_quantization_default",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.10025468890363878,
+	"extractor": "spectral_bandwidth",
+	"aggregator": "vector_quantization_default",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.7662488763047093,
+	"extractor": "spectral_rolloff",
+	"aggregator": "basic_stats_1",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.7961659829365609,
+	"extractor": "spectral_rolloff",
+	"aggregator": "basic_stats_1",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.8734591215315091,
+	"extractor": "spectral_rolloff",
+	"aggregator": "basic_stats_1",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.9919048226438969,
+	"extractor": "spectral_rolloff",
+	"aggregator": "basic_stats_1",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.6691775540834021,
+	"extractor": "spectral_rolloff",
+	"aggregator": "basic_stats_2",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.6769336381380769,
+	"extractor": "spectral_rolloff",
+	"aggregator": "basic_stats_2",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.6864663094376848,
+	"extractor": "spectral_rolloff",
+	"aggregator": "basic_stats_2",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 1.0179771841765601,
+	"extractor": "spectral_rolloff",
+	"aggregator": "basic_stats_2",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.7822421588441365,
+	"extractor": "spectral_rolloff",
+	"aggregator": "diff_stats_1",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.7979998982469388,
+	"extractor": "spectral_rolloff",
+	"aggregator": "diff_stats_1",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.8735064121848803,
+	"extractor": "spectral_rolloff",
+	"aggregator": "diff_stats_1",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.9983202707729828,
+	"extractor": "spectral_rolloff",
+	"aggregator": "diff_stats_1",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.6600607844487457,
+	"extractor": "spectral_rolloff",
+	"aggregator": "diff_stats_2",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.6837235550549914,
+	"extractor": "spectral_rolloff",
+	"aggregator": "diff_stats_2",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.7727049046884775,
+	"extractor": "spectral_rolloff",
+	"aggregator": "diff_stats_2",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.9515064431641937,
+	"extractor": "spectral_rolloff",
+	"aggregator": "diff_stats_2",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.9789622571349754,
+	"extractor": "spectral_rolloff",
+	"aggregator": "gaussian_mixture_model_default",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.985984052909227,
+	"extractor": "spectral_rolloff",
+	"aggregator": "gaussian_mixture_model_default",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.991762193491571,
+	"extractor": "spectral_rolloff",
+	"aggregator": "gaussian_mixture_model_default",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 1.0696892719119202,
+	"extractor": "spectral_rolloff",
+	"aggregator": "gaussian_mixture_model_default",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.3850231439038965,
+	"extractor": "spectral_rolloff",
+	"aggregator": "vector_quantization",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.9340738552682485,
+	"extractor": "spectral_rolloff",
+	"aggregator": "vector_quantization",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.8878027459033836,
+	"extractor": "spectral_rolloff",
+	"aggregator": "vector_quantization",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.2230144886856153,
+	"extractor": "spectral_rolloff",
+	"aggregator": "vector_quantization",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.4988813665604487,
+	"extractor": "spectral_rolloff",
+	"aggregator": "vector_quantization_default",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.7858576790809373,
+	"extractor": "spectral_rolloff",
+	"aggregator": "vector_quantization_default",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.956609644262301,
+	"extractor": "spectral_rolloff",
+	"aggregator": "vector_quantization_default",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.4919768413701434,
+	"extractor": "spectral_rolloff",
+	"aggregator": "vector_quantization_default",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.8318099382479666,
+	"extractor": "spectral_flatness",
+	"aggregator": "basic_stats_1",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.828155347905618,
+	"extractor": "spectral_flatness",
+	"aggregator": "basic_stats_1",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.8273742515085987,
+	"extractor": "spectral_flatness",
+	"aggregator": "basic_stats_1",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 1.0506674988605091,
+	"extractor": "spectral_flatness",
+	"aggregator": "basic_stats_1",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.1396868906697745,
+	"extractor": "spectral_flatness",
+	"aggregator": "basic_stats_2",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.010908012255894396,
+	"extractor": "spectral_flatness",
+	"aggregator": "basic_stats_2",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.0006077194558795317,
+	"extractor": "spectral_flatness",
+	"aggregator": "basic_stats_2",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 1.0340698716046364,
+	"extractor": "spectral_flatness",
+	"aggregator": "basic_stats_2",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.8312273302907702,
+	"extractor": "spectral_flatness",
+	"aggregator": "diff_stats_1",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.828360194597081,
+	"extractor": "spectral_flatness",
+	"aggregator": "diff_stats_1",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.8273969297537903,
+	"extractor": "spectral_flatness",
+	"aggregator": "diff_stats_1",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.8019147114857087,
+	"extractor": "spectral_flatness",
+	"aggregator": "diff_stats_1",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.07864730143765891,
+	"extractor": "spectral_flatness",
+	"aggregator": "diff_stats_2",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.0055479103431665755,
+	"extractor": "spectral_flatness",
+	"aggregator": "diff_stats_2",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.0006081251187881401,
+	"extractor": "spectral_flatness",
+	"aggregator": "diff_stats_2",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.7185573335617956,
+	"extractor": "spectral_flatness",
+	"aggregator": "diff_stats_2",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.6676102360094116,
+	"extractor": "spectral_flatness",
+	"aggregator": "gaussian_mixture_model_default",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.6155228306973629,
+	"extractor": "spectral_flatness",
+	"aggregator": "gaussian_mixture_model_default",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 5.562250701702928e-06,
+	"extractor": "spectral_flatness",
+	"aggregator": "gaussian_mixture_model_default",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.27187842153140296,
+	"extractor": "spectral_flatness",
+	"aggregator": "gaussian_mixture_model_default",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.047763708670830435,
+	"extractor": "spectral_flatness",
+	"aggregator": "vector_quantization",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.8563422438252664,
+	"extractor": "spectral_flatness",
+	"aggregator": "vector_quantization",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.9543984142283078,
+	"extractor": "spectral_flatness",
+	"aggregator": "vector_quantization",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.0037557693543858847,
+	"extractor": "spectral_flatness",
+	"aggregator": "vector_quantization",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.30040630073373836,
+	"extractor": "spectral_flatness",
+	"aggregator": "vector_quantization_default",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.3554001350657296,
+	"extractor": "spectral_flatness",
+	"aggregator": "vector_quantization_default",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.29873908605082317,
+	"extractor": "spectral_flatness",
+	"aggregator": "vector_quantization_default",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.4889484496406525,
+	"extractor": "spectral_flatness",
+	"aggregator": "vector_quantization_default",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.9517633977760049,
+	"extractor": "rms",
+	"aggregator": "basic_stats_1",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.9567813356945177,
+	"extractor": "rms",
+	"aggregator": "basic_stats_1",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.9679914567348115,
+	"extractor": "rms",
+	"aggregator": "basic_stats_1",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 1.004590104874492,
+	"extractor": "rms",
+	"aggregator": "basic_stats_1",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.7016764368567943,
+	"extractor": "rms",
+	"aggregator": "basic_stats_2",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.552757131986121,
+	"extractor": "rms",
+	"aggregator": "basic_stats_2",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.43061859780340406,
+	"extractor": "rms",
+	"aggregator": "basic_stats_2",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 1.0273987186045364,
+	"extractor": "rms",
+	"aggregator": "basic_stats_2",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.9459018758769832,
+	"extractor": "rms",
+	"aggregator": "diff_stats_1",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.9557071618641246,
+	"extractor": "rms",
+	"aggregator": "diff_stats_1",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.9680121193193566,
+	"extractor": "rms",
+	"aggregator": "diff_stats_1",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 1.0034885259539297,
+	"extractor": "rms",
+	"aggregator": "diff_stats_1",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.6546196914240037,
+	"extractor": "rms",
+	"aggregator": "diff_stats_2",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.5420120203363646,
+	"extractor": "rms",
+	"aggregator": "diff_stats_2",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.4308178630647818,
+	"extractor": "rms",
+	"aggregator": "diff_stats_2",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 1.047728278891235,
+	"extractor": "rms",
+	"aggregator": "diff_stats_2",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.7523511927718086,
+	"extractor": "rms",
+	"aggregator": "gaussian_mixture_model_default",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.781151270824962,
+	"extractor": "rms",
+	"aggregator": "gaussian_mixture_model_default",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.599400291232007,
+	"extractor": "rms",
+	"aggregator": "gaussian_mixture_model_default",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.4375110491784,
+	"extractor": "rms",
+	"aggregator": "gaussian_mixture_model_default",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.3879768357367981,
+	"extractor": "rms",
+	"aggregator": "vector_quantization",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.9161056939487316,
+	"extractor": "rms",
+	"aggregator": "vector_quantization",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.9106278688621392,
+	"extractor": "rms",
+	"aggregator": "vector_quantization",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.05820086633000328,
+	"extractor": "rms",
+	"aggregator": "vector_quantization",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.4882558593837759,
+	"extractor": "rms",
+	"aggregator": "vector_quantization_default",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.6718020794406625,
+	"extractor": "rms",
+	"aggregator": "vector_quantization_default",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.7422077612925339,
+	"extractor": "rms",
+	"aggregator": "vector_quantization_default",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.3089205808456162,
+	"extractor": "rms",
+	"aggregator": "vector_quantization_default",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.7430160951721526,
+	"extractor": "zero_crossing_rate",
+	"aggregator": "basic_stats_1",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.7533251360189315,
+	"extractor": "zero_crossing_rate",
+	"aggregator": "basic_stats_1",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.7946076023855358,
+	"extractor": "zero_crossing_rate",
+	"aggregator": "basic_stats_1",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 1.0200160274690415,
+	"extractor": "zero_crossing_rate",
+	"aggregator": "basic_stats_1",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.7570622812129211,
+	"extractor": "zero_crossing_rate",
+	"aggregator": "basic_stats_2",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.7927739175242537,
+	"extractor": "zero_crossing_rate",
+	"aggregator": "basic_stats_2",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.8027337228303271,
+	"extractor": "zero_crossing_rate",
+	"aggregator": "basic_stats_2",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 1.0259688718217481,
+	"extractor": "zero_crossing_rate",
+	"aggregator": "basic_stats_2",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.7708741602059789,
+	"extractor": "zero_crossing_rate",
+	"aggregator": "diff_stats_1",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.7562583137831866,
+	"extractor": "zero_crossing_rate",
+	"aggregator": "diff_stats_1",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.7946636164999064,
+	"extractor": "zero_crossing_rate",
+	"aggregator": "diff_stats_1",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 1.004007990567106,
+	"extractor": "zero_crossing_rate",
+	"aggregator": "diff_stats_1",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.8088418758871324,
+	"extractor": "zero_crossing_rate",
+	"aggregator": "diff_stats_2",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.8012021356953833,
+	"extractor": "zero_crossing_rate",
+	"aggregator": "diff_stats_2",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.8031214367200114,
+	"extractor": "zero_crossing_rate",
+	"aggregator": "diff_stats_2",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 1.0216764589473966,
+	"extractor": "zero_crossing_rate",
+	"aggregator": "diff_stats_2",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 1.0521272069554757,
+	"extractor": "zero_crossing_rate",
+	"aggregator": "gaussian_mixture_model_default",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.9632183607101406,
+	"extractor": "zero_crossing_rate",
+	"aggregator": "gaussian_mixture_model_default",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.769632051626992,
+	"extractor": "zero_crossing_rate",
+	"aggregator": "gaussian_mixture_model_default",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 1.039288590856358,
+	"extractor": "zero_crossing_rate",
+	"aggregator": "gaussian_mixture_model_default",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.8700113469068003,
+	"extractor": "zero_crossing_rate",
+	"aggregator": "vector_quantization",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.9295291155893369,
+	"extractor": "zero_crossing_rate",
+	"aggregator": "vector_quantization",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.8770239199494252,
+	"extractor": "zero_crossing_rate",
+	"aggregator": "vector_quantization",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.46945317203649234,
+	"extractor": "zero_crossing_rate",
+	"aggregator": "vector_quantization",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.9076792176758733,
+	"extractor": "zero_crossing_rate",
+	"aggregator": "vector_quantization_default",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.9978789516310387,
+	"extractor": "zero_crossing_rate",
+	"aggregator": "vector_quantization_default",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 1.0196843994624345,
+	"extractor": "zero_crossing_rate",
+	"aggregator": "vector_quantization_default",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.9482327879632891,
+	"extractor": "zero_crossing_rate",
+	"aggregator": "vector_quantization_default",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 1.0024768727027598,
+	"extractor": "chroma_stft",
+	"aggregator": "basic_stats_1",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.992257077747106,
+	"extractor": "chroma_stft",
+	"aggregator": "basic_stats_1",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.9677718491748684,
+	"extractor": "chroma_stft",
+	"aggregator": "basic_stats_1",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.9969811525561983,
+	"extractor": "chroma_stft",
+	"aggregator": "basic_stats_1",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 1.0019343204857432,
+	"extractor": "chroma_stft",
+	"aggregator": "basic_stats_2",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.9949189664168345,
+	"extractor": "chroma_stft",
+	"aggregator": "basic_stats_2",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.969520782640078,
+	"extractor": "chroma_stft",
+	"aggregator": "basic_stats_2",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 1.002859868435586,
+	"extractor": "chroma_stft",
+	"aggregator": "basic_stats_2",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.9163924143910416,
+	"extractor": "chroma_stft",
+	"aggregator": "diff_stats_1",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.9466406625952807,
+	"extractor": "chroma_stft",
+	"aggregator": "diff_stats_1",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.9682852113744783,
+	"extractor": "chroma_stft",
+	"aggregator": "diff_stats_1",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.9689701092341957,
+	"extractor": "chroma_stft",
+	"aggregator": "diff_stats_1",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.9150859609919163,
+	"extractor": "chroma_stft",
+	"aggregator": "diff_stats_2",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.9481779633397127,
+	"extractor": "chroma_stft",
+	"aggregator": "diff_stats_2",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.9356598131087961,
+	"extractor": "chroma_stft",
+	"aggregator": "diff_stats_2",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.9998445538718088,
+	"extractor": "chroma_stft",
+	"aggregator": "diff_stats_2",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.8577433094525188,
+	"extractor": "chroma_stft",
+	"aggregator": "statistical_summarization",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.9010873202909778,
+	"extractor": "chroma_stft",
+	"aggregator": "statistical_summarization",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.9662137637105247,
+	"extractor": "chroma_stft",
+	"aggregator": "statistical_summarization",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.8860245505311284,
+	"extractor": "chroma_stft",
+	"aggregator": "statistical_summarization",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.8482355019263635,
+	"extractor": "chroma_stft",
+	"aggregator": "gaussian_mixture_model_default",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.7763665316663304,
+	"extractor": "chroma_stft",
+	"aggregator": "gaussian_mixture_model_default",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.35424892444834927,
+	"extractor": "chroma_stft",
+	"aggregator": "gaussian_mixture_model_default",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.8603439533331678,
+	"extractor": "chroma_stft",
+	"aggregator": "gaussian_mixture_model_default",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.35001090849601857,
+	"extractor": "chroma_stft",
+	"aggregator": "vector_quantization",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.940542774100931,
+	"extractor": "chroma_stft",
+	"aggregator": "vector_quantization",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.9243890927573142,
+	"extractor": "chroma_stft",
+	"aggregator": "vector_quantization",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.15846230946461154,
+	"extractor": "chroma_stft",
+	"aggregator": "vector_quantization",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.7462777633648903,
+	"extractor": "chroma_stft",
+	"aggregator": "vector_quantization_default",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.8465652638494767,
+	"extractor": "chroma_stft",
+	"aggregator": "vector_quantization_default",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 1.0162354593408807,
+	"extractor": "chroma_stft",
+	"aggregator": "vector_quantization_default",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.8080514350969602,
+	"extractor": "chroma_stft",
+	"aggregator": "vector_quantization_default",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 1.0208664317786367,
+	"extractor": "chroma_stft",
+	"aggregator": "statistical_summarization_2",
+	"distance": "earth_movers_distance"
+},
+{
+	"iicsr": 1.0039837951841522,
+	"extractor": "chroma_stft",
+	"aggregator": "statistical_summarization_2",
+	"distance": "monte_carlo_distance"
+},
+{
+	"iicsr": 0.9374027291128699,
+	"extractor": "chroma_cqt",
+	"aggregator": "basic_stats_1",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.9304672199921007,
+	"extractor": "chroma_cqt",
+	"aggregator": "basic_stats_1",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.833091640269686,
+	"extractor": "chroma_cqt",
+	"aggregator": "basic_stats_1",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.9312291862767763,
+	"extractor": "chroma_cqt",
+	"aggregator": "basic_stats_1",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.9272047176943287,
+	"extractor": "chroma_cqt",
+	"aggregator": "basic_stats_2",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.9310737977281194,
+	"extractor": "chroma_cqt",
+	"aggregator": "basic_stats_2",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.8331904605000041,
+	"extractor": "chroma_cqt",
+	"aggregator": "basic_stats_2",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.9609388179707988,
+	"extractor": "chroma_cqt",
+	"aggregator": "basic_stats_2",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.9000758107307206,
+	"extractor": "chroma_cqt",
+	"aggregator": "diff_stats_1",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.9228094548566068,
+	"extractor": "chroma_cqt",
+	"aggregator": "diff_stats_1",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.833091640269686,
+	"extractor": "chroma_cqt",
+	"aggregator": "diff_stats_1",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.9292226196705136,
+	"extractor": "chroma_cqt",
+	"aggregator": "diff_stats_1",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.8070465838527818,
+	"extractor": "chroma_cqt",
+	"aggregator": "diff_stats_2",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.7550087315472533,
+	"extractor": "chroma_cqt",
+	"aggregator": "diff_stats_2",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.740749967071981,
+	"extractor": "chroma_cqt",
+	"aggregator": "diff_stats_2",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.864917323664307,
+	"extractor": "chroma_cqt",
+	"aggregator": "diff_stats_2",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 1.006192390976502,
+	"extractor": "chroma_cqt",
+	"aggregator": "statistical_summarization",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.9479950688298363,
+	"extractor": "chroma_cqt",
+	"aggregator": "statistical_summarization",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.8313617008571836,
+	"extractor": "chroma_cqt",
+	"aggregator": "statistical_summarization",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.9365546302779156,
+	"extractor": "chroma_cqt",
+	"aggregator": "statistical_summarization",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 1.1085184766573353,
+	"extractor": "chroma_cqt",
+	"aggregator": "gaussian_mixture_model_default",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 1.1961817577474434,
+	"extractor": "chroma_cqt",
+	"aggregator": "gaussian_mixture_model_default",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 1.9060195755473598e-11,
+	"extractor": "chroma_cqt",
+	"aggregator": "gaussian_mixture_model_default",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 1.0951178679252715,
+	"extractor": "chroma_cqt",
+	"aggregator": "gaussian_mixture_model_default",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.882084671009554,
+	"extractor": "chroma_cqt",
+	"aggregator": "vector_quantization",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 1.0208325423073819,
+	"extractor": "chroma_cqt",
+	"aggregator": "vector_quantization",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 1.0378358516776884,
+	"extractor": "chroma_cqt",
+	"aggregator": "vector_quantization",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.6462370008864896,
+	"extractor": "chroma_cqt",
+	"aggregator": "vector_quantization",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.8708082970565518,
+	"extractor": "chroma_cqt",
+	"aggregator": "vector_quantization_default",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.8599363230818435,
+	"extractor": "chroma_cqt",
+	"aggregator": "vector_quantization_default",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.8200118083161378,
+	"extractor": "chroma_cqt",
+	"aggregator": "vector_quantization_default",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.8143564594349688,
+	"extractor": "chroma_cqt",
+	"aggregator": "vector_quantization_default",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 1.022131736283071,
+	"extractor": "chroma_cqt",
+	"aggregator": "statistical_summarization_2",
+	"distance": "earth_movers_distance"
+},
+{
+	"iicsr": 1.0166374483525895,
+	"extractor": "chroma_cqt",
+	"aggregator": "statistical_summarization_2",
+	"distance": "monte_carlo_distance"
+},
+{
+	"iicsr": 0.8817626513890262,
+	"extractor": "chroma_cens",
+	"aggregator": "basic_stats_1",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.8516154473335581,
+	"extractor": "chroma_cens",
+	"aggregator": "basic_stats_1",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.7971436915476179,
+	"extractor": "chroma_cens",
+	"aggregator": "basic_stats_1",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.9192003481258617,
+	"extractor": "chroma_cens",
+	"aggregator": "basic_stats_1",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.8946496337507508,
+	"extractor": "chroma_cens",
+	"aggregator": "basic_stats_2",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.8597781829468365,
+	"extractor": "chroma_cens",
+	"aggregator": "basic_stats_2",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.8685692878627984,
+	"extractor": "chroma_cens",
+	"aggregator": "basic_stats_2",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.9767827033271146,
+	"extractor": "chroma_cens",
+	"aggregator": "basic_stats_2",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.8791302421034386,
+	"extractor": "chroma_cens",
+	"aggregator": "diff_stats_1",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.8514167637098067,
+	"extractor": "chroma_cens",
+	"aggregator": "diff_stats_1",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.7971436915476179,
+	"extractor": "chroma_cens",
+	"aggregator": "diff_stats_1",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.9190334787753476,
+	"extractor": "chroma_cens",
+	"aggregator": "diff_stats_1",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.6028821205406005,
+	"extractor": "chroma_cens",
+	"aggregator": "diff_stats_2",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.43224498991455856,
+	"extractor": "chroma_cens",
+	"aggregator": "diff_stats_2",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.24995269722962712,
+	"extractor": "chroma_cens",
+	"aggregator": "diff_stats_2",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.6521139201786234,
+	"extractor": "chroma_cens",
+	"aggregator": "diff_stats_2",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.8976014175237733,
+	"extractor": "chroma_cens",
+	"aggregator": "statistical_summarization",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.8662718077858792,
+	"extractor": "chroma_cens",
+	"aggregator": "statistical_summarization",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.7951552281249419,
+	"extractor": "chroma_cens",
+	"aggregator": "statistical_summarization",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.9206598323749553,
+	"extractor": "chroma_cens",
+	"aggregator": "statistical_summarization",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.7601029419276734,
+	"extractor": "chroma_cens",
+	"aggregator": "gaussian_mixture_model_default",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.7426126131040894,
+	"extractor": "chroma_cens",
+	"aggregator": "gaussian_mixture_model_default",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.5140425893071163,
+	"extractor": "chroma_cens",
+	"aggregator": "gaussian_mixture_model_default",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.8108429986800596,
+	"extractor": "chroma_cens",
+	"aggregator": "gaussian_mixture_model_default",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.7480195294913977,
+	"extractor": "chroma_cens",
+	"aggregator": "vector_quantization",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 1.0409172110469558,
+	"extractor": "chroma_cens",
+	"aggregator": "vector_quantization",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 1.050504306906913,
+	"extractor": "chroma_cens",
+	"aggregator": "vector_quantization",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.8096153127960426,
+	"extractor": "chroma_cens",
+	"aggregator": "vector_quantization",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.7658772679897742,
+	"extractor": "chroma_cens",
+	"aggregator": "vector_quantization_default",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.8427384263773737,
+	"extractor": "chroma_cens",
+	"aggregator": "vector_quantization_default",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.9619332340997016,
+	"extractor": "chroma_cens",
+	"aggregator": "vector_quantization_default",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.785115557314626,
+	"extractor": "chroma_cens",
+	"aggregator": "vector_quantization_default",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 1.0319147701917268,
+	"extractor": "chroma_cens",
+	"aggregator": "statistical_summarization_2",
+	"distance": "earth_movers_distance"
+},
+{
+	"iicsr": 1.0243259789394341,
+	"extractor": "chroma_cens",
+	"aggregator": "statistical_summarization_2",
+	"distance": "monte_carlo_distance"
+},
+{
+	"iicsr": 0.9279311077257357,
+	"extractor": "beat_synchronous_chroma_stft",
+	"aggregator": "basic_stats_1",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.9434787381005405,
+	"extractor": "beat_synchronous_chroma_stft",
+	"aggregator": "basic_stats_1",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.9795337070598082,
+	"extractor": "beat_synchronous_chroma_stft",
+	"aggregator": "basic_stats_1",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.9464336738259495,
+	"extractor": "beat_synchronous_chroma_stft",
+	"aggregator": "basic_stats_1",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.9610206185561263,
+	"extractor": "beat_synchronous_chroma_stft",
+	"aggregator": "basic_stats_2",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 1.00805210986442,
+	"extractor": "beat_synchronous_chroma_stft",
+	"aggregator": "basic_stats_2",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 1.1329539370051946,
+	"extractor": "beat_synchronous_chroma_stft",
+	"aggregator": "basic_stats_2",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.9998898390235009,
+	"extractor": "beat_synchronous_chroma_stft",
+	"aggregator": "basic_stats_2",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.9718733820057729,
+	"extractor": "beat_synchronous_chroma_stft",
+	"aggregator": "diff_stats_1",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.9668535774665203,
+	"extractor": "beat_synchronous_chroma_stft",
+	"aggregator": "diff_stats_1",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.9840984022190573,
+	"extractor": "beat_synchronous_chroma_stft",
+	"aggregator": "diff_stats_1",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.9810812265146739,
+	"extractor": "beat_synchronous_chroma_stft",
+	"aggregator": "diff_stats_1",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.8590410697263364,
+	"extractor": "beat_synchronous_chroma_stft",
+	"aggregator": "diff_stats_2",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.8360837293065025,
+	"extractor": "beat_synchronous_chroma_stft",
+	"aggregator": "diff_stats_2",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.972934910567436,
+	"extractor": "beat_synchronous_chroma_stft",
+	"aggregator": "diff_stats_2",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.9826950814736582,
+	"extractor": "beat_synchronous_chroma_stft",
+	"aggregator": "diff_stats_2",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.8362776279398249,
+	"extractor": "beat_synchronous_chroma_stft",
+	"aggregator": "statistical_summarization",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.9138656574292623,
+	"extractor": "beat_synchronous_chroma_stft",
+	"aggregator": "statistical_summarization",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.9596347748232359,
+	"extractor": "beat_synchronous_chroma_stft",
+	"aggregator": "statistical_summarization",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.8871389223810077,
+	"extractor": "beat_synchronous_chroma_stft",
+	"aggregator": "statistical_summarization",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.9198617925785474,
+	"extractor": "beat_synchronous_chroma_stft",
+	"aggregator": "gaussian_mixture_model_default",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 1.0032737053656935,
+	"extractor": "beat_synchronous_chroma_stft",
+	"aggregator": "gaussian_mixture_model_default",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 1.1938086936856938,
+	"extractor": "beat_synchronous_chroma_stft",
+	"aggregator": "gaussian_mixture_model_default",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 1.0336907263872994,
+	"extractor": "beat_synchronous_chroma_stft",
+	"aggregator": "gaussian_mixture_model_default",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.11091342602138565,
+	"extractor": "beat_synchronous_chroma_stft",
+	"aggregator": "vector_quantization",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 1.0308829272204845,
+	"extractor": "beat_synchronous_chroma_stft",
+	"aggregator": "vector_quantization",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 1.0619659066629918,
+	"extractor": "beat_synchronous_chroma_stft",
+	"aggregator": "vector_quantization",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.12165384870034475,
+	"extractor": "beat_synchronous_chroma_stft",
+	"aggregator": "vector_quantization",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.9084597719637993,
+	"extractor": "beat_synchronous_chroma_stft",
+	"aggregator": "vector_quantization_default",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.967379271165701,
+	"extractor": "beat_synchronous_chroma_stft",
+	"aggregator": "vector_quantization_default",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 1.0775762164264693,
+	"extractor": "beat_synchronous_chroma_stft",
+	"aggregator": "vector_quantization_default",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.9134899863936513,
+	"extractor": "beat_synchronous_chroma_stft",
+	"aggregator": "vector_quantization_default",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.9226774380316862,
+	"extractor": "beat_synchronous_chroma_stft",
+	"aggregator": "statistical_summarization_2",
+	"distance": "earth_movers_distance"
+},
+{
+	"iicsr": 1.0002825080019055,
+	"extractor": "beat_synchronous_chroma_stft",
+	"aggregator": "statistical_summarization_2",
+	"distance": "monte_carlo_distance"
+},
+{
+	"iicsr": 0.9552584081709239,
+	"extractor": "beat_synchronous_chroma_cqt",
+	"aggregator": "basic_stats_1",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.946493289712356,
+	"extractor": "beat_synchronous_chroma_cqt",
+	"aggregator": "basic_stats_1",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.9130248712070776,
+	"extractor": "beat_synchronous_chroma_cqt",
+	"aggregator": "basic_stats_1",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.952305978475904,
+	"extractor": "beat_synchronous_chroma_cqt",
+	"aggregator": "basic_stats_1",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.9405512374509253,
+	"extractor": "beat_synchronous_chroma_cqt",
+	"aggregator": "basic_stats_2",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.9520179992934227,
+	"extractor": "beat_synchronous_chroma_cqt",
+	"aggregator": "basic_stats_2",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 1.010803275718708,
+	"extractor": "beat_synchronous_chroma_cqt",
+	"aggregator": "basic_stats_2",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.9874338317873997,
+	"extractor": "beat_synchronous_chroma_cqt",
+	"aggregator": "basic_stats_2",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 1.0100004941273761,
+	"extractor": "beat_synchronous_chroma_cqt",
+	"aggregator": "diff_stats_1",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.9834800584989466,
+	"extractor": "beat_synchronous_chroma_cqt",
+	"aggregator": "diff_stats_1",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.9162974154759784,
+	"extractor": "beat_synchronous_chroma_cqt",
+	"aggregator": "diff_stats_1",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.9755630399492874,
+	"extractor": "beat_synchronous_chroma_cqt",
+	"aggregator": "diff_stats_1",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.9118267243310564,
+	"extractor": "beat_synchronous_chroma_cqt",
+	"aggregator": "diff_stats_2",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.8677005284955653,
+	"extractor": "beat_synchronous_chroma_cqt",
+	"aggregator": "diff_stats_2",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.7627389004768824,
+	"extractor": "beat_synchronous_chroma_cqt",
+	"aggregator": "diff_stats_2",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.983019717925301,
+	"extractor": "beat_synchronous_chroma_cqt",
+	"aggregator": "diff_stats_2",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.9788883841854922,
+	"extractor": "beat_synchronous_chroma_cqt",
+	"aggregator": "statistical_summarization",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.9637747956017285,
+	"extractor": "beat_synchronous_chroma_cqt",
+	"aggregator": "statistical_summarization",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.9095976985780599,
+	"extractor": "beat_synchronous_chroma_cqt",
+	"aggregator": "statistical_summarization",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.9357639925484509,
+	"extractor": "beat_synchronous_chroma_cqt",
+	"aggregator": "statistical_summarization",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 1.0217189998215663,
+	"extractor": "beat_synchronous_chroma_cqt",
+	"aggregator": "gaussian_mixture_model_default",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 1.0314448013289372,
+	"extractor": "beat_synchronous_chroma_cqt",
+	"aggregator": "gaussian_mixture_model_default",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.42711940262666137,
+	"extractor": "beat_synchronous_chroma_cqt",
+	"aggregator": "gaussian_mixture_model_default",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 1.0149201153547802,
+	"extractor": "beat_synchronous_chroma_cqt",
+	"aggregator": "gaussian_mixture_model_default",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 1.1320461520190246,
+	"extractor": "beat_synchronous_chroma_cqt",
+	"aggregator": "vector_quantization",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 1.082137421529867,
+	"extractor": "beat_synchronous_chroma_cqt",
+	"aggregator": "vector_quantization",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 1.0366892678277255,
+	"extractor": "beat_synchronous_chroma_cqt",
+	"aggregator": "vector_quantization",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.9381190776196318,
+	"extractor": "beat_synchronous_chroma_cqt",
+	"aggregator": "vector_quantization",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.8854660620597071,
+	"extractor": "beat_synchronous_chroma_cqt",
+	"aggregator": "vector_quantization_default",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.9081127639013408,
+	"extractor": "beat_synchronous_chroma_cqt",
+	"aggregator": "vector_quantization_default",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.8974304983552059,
+	"extractor": "beat_synchronous_chroma_cqt",
+	"aggregator": "vector_quantization_default",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.7539368088505513,
+	"extractor": "beat_synchronous_chroma_cqt",
+	"aggregator": "vector_quantization_default",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 1.0471834126433976,
+	"extractor": "beat_synchronous_chroma_cqt",
+	"aggregator": "statistical_summarization_2",
+	"distance": "earth_movers_distance"
+},
+{
+	"iicsr": 1.0011641194068337,
+	"extractor": "beat_synchronous_chroma_cqt",
+	"aggregator": "statistical_summarization_2",
+	"distance": "monte_carlo_distance"
+},
+{
+	"iicsr": 0.9169729508493351,
+	"extractor": "beat_synchronous_chroma_cens",
+	"aggregator": "basic_stats_1",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.8872069366898594,
+	"extractor": "beat_synchronous_chroma_cens",
+	"aggregator": "basic_stats_1",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.854227529835398,
+	"extractor": "beat_synchronous_chroma_cens",
+	"aggregator": "basic_stats_1",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.9426150373621778,
+	"extractor": "beat_synchronous_chroma_cens",
+	"aggregator": "basic_stats_1",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.951284964046052,
+	"extractor": "beat_synchronous_chroma_cens",
+	"aggregator": "basic_stats_2",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.9021221060697945,
+	"extractor": "beat_synchronous_chroma_cens",
+	"aggregator": "basic_stats_2",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.7193037301697373,
+	"extractor": "beat_synchronous_chroma_cens",
+	"aggregator": "basic_stats_2",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.9935642064986236,
+	"extractor": "beat_synchronous_chroma_cens",
+	"aggregator": "basic_stats_2",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.9870196745311589,
+	"extractor": "beat_synchronous_chroma_cens",
+	"aggregator": "diff_stats_1",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.914052602230462,
+	"extractor": "beat_synchronous_chroma_cens",
+	"aggregator": "diff_stats_1",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.8557438854761923,
+	"extractor": "beat_synchronous_chroma_cens",
+	"aggregator": "diff_stats_1",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.9527624494869104,
+	"extractor": "beat_synchronous_chroma_cens",
+	"aggregator": "diff_stats_1",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.8224527101334453,
+	"extractor": "beat_synchronous_chroma_cens",
+	"aggregator": "diff_stats_2",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.714193881585414,
+	"extractor": "beat_synchronous_chroma_cens",
+	"aggregator": "diff_stats_2",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.7790310416806367,
+	"extractor": "beat_synchronous_chroma_cens",
+	"aggregator": "diff_stats_2",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.9534815068176169,
+	"extractor": "beat_synchronous_chroma_cens",
+	"aggregator": "diff_stats_2",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.9138985209211848,
+	"extractor": "beat_synchronous_chroma_cens",
+	"aggregator": "statistical_summarization",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.895742305022413,
+	"extractor": "beat_synchronous_chroma_cens",
+	"aggregator": "statistical_summarization",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.8516956931192156,
+	"extractor": "beat_synchronous_chroma_cens",
+	"aggregator": "statistical_summarization",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.9190343778535227,
+	"extractor": "beat_synchronous_chroma_cens",
+	"aggregator": "statistical_summarization",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.992469931506905,
+	"extractor": "beat_synchronous_chroma_cens",
+	"aggregator": "gaussian_mixture_model_default",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 1.0008881408439618,
+	"extractor": "beat_synchronous_chroma_cens",
+	"aggregator": "gaussian_mixture_model_default",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 1.1286917514214114,
+	"extractor": "beat_synchronous_chroma_cens",
+	"aggregator": "gaussian_mixture_model_default",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.9918965757202372,
+	"extractor": "beat_synchronous_chroma_cens",
+	"aggregator": "gaussian_mixture_model_default",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.8337442944971344,
+	"extractor": "beat_synchronous_chroma_cens",
+	"aggregator": "vector_quantization",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 1.1076626246143124,
+	"extractor": "beat_synchronous_chroma_cens",
+	"aggregator": "vector_quantization",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 1.1302210648306772,
+	"extractor": "beat_synchronous_chroma_cens",
+	"aggregator": "vector_quantization",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.7790499424505032,
+	"extractor": "beat_synchronous_chroma_cens",
+	"aggregator": "vector_quantization",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.8437794311423434,
+	"extractor": "beat_synchronous_chroma_cens",
+	"aggregator": "vector_quantization_default",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.9387240731972145,
+	"extractor": "beat_synchronous_chroma_cens",
+	"aggregator": "vector_quantization_default",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 1.0112878660432951,
+	"extractor": "beat_synchronous_chroma_cens",
+	"aggregator": "vector_quantization_default",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.8667746923275158,
+	"extractor": "beat_synchronous_chroma_cens",
+	"aggregator": "vector_quantization_default",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 1.0090781483354474,
+	"extractor": "beat_synchronous_chroma_cens",
+	"aggregator": "statistical_summarization_2",
+	"distance": "earth_movers_distance"
+},
+{
+	"iicsr": 1.0005908222488018,
+	"extractor": "beat_synchronous_chroma_cens",
+	"aggregator": "statistical_summarization_2",
+	"distance": "monte_carlo_distance"
+},
+{
+	"iicsr": 1.0472017532069515,
+	"extractor": "melspectrogram",
+	"aggregator": "basic_stats_1",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 1.038035521564588,
+	"extractor": "melspectrogram",
+	"aggregator": "basic_stats_1",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.9963172557154724,
+	"extractor": "melspectrogram",
+	"aggregator": "basic_stats_1",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.6200830887766977,
+	"extractor": "melspectrogram",
+	"aggregator": "basic_stats_1",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 1.0408013592521375,
+	"extractor": "melspectrogram",
+	"aggregator": "basic_stats_2",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 1.0092419196373332,
+	"extractor": "melspectrogram",
+	"aggregator": "basic_stats_2",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.8725064244016218,
+	"extractor": "melspectrogram",
+	"aggregator": "basic_stats_2",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.5026560064247408,
+	"extractor": "melspectrogram",
+	"aggregator": "basic_stats_2",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 1.0452832712184368,
+	"extractor": "melspectrogram",
+	"aggregator": "diff_stats_1",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 1.03852566726801,
+	"extractor": "melspectrogram",
+	"aggregator": "diff_stats_1",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.996418972255651,
+	"extractor": "melspectrogram",
+	"aggregator": "diff_stats_1",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.6251954757359142,
+	"extractor": "melspectrogram",
+	"aggregator": "diff_stats_1",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 1.040782972504265,
+	"extractor": "melspectrogram",
+	"aggregator": "diff_stats_2",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 1.0156973083726737,
+	"extractor": "melspectrogram",
+	"aggregator": "diff_stats_2",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.8727805495992383,
+	"extractor": "melspectrogram",
+	"aggregator": "diff_stats_2",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.5073722098172566,
+	"extractor": "melspectrogram",
+	"aggregator": "diff_stats_2",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 1.018597402435998,
+	"extractor": "melspectrogram",
+	"aggregator": "statistical_summarization",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 1.0177482306145043,
+	"extractor": "melspectrogram",
+	"aggregator": "statistical_summarization",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 1.0154394686979527,
+	"extractor": "melspectrogram",
+	"aggregator": "statistical_summarization",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.12808991033671718,
+	"extractor": "melspectrogram",
+	"aggregator": "statistical_summarization",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 1.014103025469024,
+	"extractor": "melspectrogram",
+	"aggregator": "gaussian_mixture_model_default",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 1.0187119338574153,
+	"extractor": "melspectrogram",
+	"aggregator": "gaussian_mixture_model_default",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 1.019413565362418,
+	"extractor": "melspectrogram",
+	"aggregator": "gaussian_mixture_model_default",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.010604236074335046,
+	"extractor": "melspectrogram",
+	"aggregator": "gaussian_mixture_model_default",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.09266276505742267,
+	"extractor": "melspectrogram",
+	"aggregator": "vector_quantization",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.8724400867106085,
+	"extractor": "melspectrogram",
+	"aggregator": "vector_quantization",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.9670786628933639,
+	"extractor": "melspectrogram",
+	"aggregator": "vector_quantization",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.0063273365616988075,
+	"extractor": "melspectrogram",
+	"aggregator": "vector_quantization",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.44198287577587253,
+	"extractor": "melspectrogram",
+	"aggregator": "vector_quantization_default",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.6458534618936548,
+	"extractor": "melspectrogram",
+	"aggregator": "vector_quantization_default",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.653294464210376,
+	"extractor": "melspectrogram",
+	"aggregator": "vector_quantization_default",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.5047964499975361,
+	"extractor": "melspectrogram",
+	"aggregator": "vector_quantization_default",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 1.0325765248200156,
+	"extractor": "melspectrogram",
+	"aggregator": "statistical_summarization_2",
+	"distance": "earth_movers_distance"
+},
+{
+	"iicsr": 0.9990707784598218,
+	"extractor": "melspectrogram",
+	"aggregator": "statistical_summarization_2",
+	"distance": "monte_carlo_distance"
+},
+{
+	"iicsr": 0.4754464062566831,
+	"extractor": "mfcc",
+	"aggregator": "basic_stats_1",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.5065352500143278,
+	"extractor": "mfcc",
+	"aggregator": "basic_stats_1",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.5516735850994708,
+	"extractor": "mfcc",
+	"aggregator": "basic_stats_1",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.625220803229342,
+	"extractor": "mfcc",
+	"aggregator": "basic_stats_1",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.5440246077219378,
+	"extractor": "mfcc",
+	"aggregator": "basic_stats_2",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.5385162699000167,
+	"extractor": "mfcc",
+	"aggregator": "basic_stats_2",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.6330067021517518,
+	"extractor": "mfcc",
+	"aggregator": "basic_stats_2",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.7469531580791408,
+	"extractor": "mfcc",
+	"aggregator": "basic_stats_2",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.47924456010513894,
+	"extractor": "mfcc",
+	"aggregator": "diff_stats_1",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.49580203407165147,
+	"extractor": "mfcc",
+	"aggregator": "diff_stats_1",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.5516735850994708,
+	"extractor": "mfcc",
+	"aggregator": "diff_stats_1",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.6329646446919424,
+	"extractor": "mfcc",
+	"aggregator": "diff_stats_1",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.536597447457911,
+	"extractor": "mfcc",
+	"aggregator": "diff_stats_2",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.6000884761052045,
+	"extractor": "mfcc",
+	"aggregator": "diff_stats_2",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.6382364547818771,
+	"extractor": "mfcc",
+	"aggregator": "diff_stats_2",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.7173550875522658,
+	"extractor": "mfcc",
+	"aggregator": "diff_stats_2",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.8166632216965211,
+	"extractor": "mfcc",
+	"aggregator": "statistical_summarization",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.7561563021388322,
+	"extractor": "mfcc",
+	"aggregator": "statistical_summarization",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.7693179497712369,
+	"extractor": "mfcc",
+	"aggregator": "statistical_summarization",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.39261924372650403,
+	"extractor": "mfcc",
+	"aggregator": "statistical_summarization",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.8955487063122112,
+	"extractor": "mfcc",
+	"aggregator": "gaussian_mixture_model_default",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.8743286390834366,
+	"extractor": "mfcc",
+	"aggregator": "gaussian_mixture_model_default",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.9443284576645101,
+	"extractor": "mfcc",
+	"aggregator": "gaussian_mixture_model_default",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.8209246232907244,
+	"extractor": "mfcc",
+	"aggregator": "gaussian_mixture_model_default",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 2.0257114390590326e-15,
+	"extractor": "mfcc",
+	"aggregator": "vector_quantization",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.9598520540062271,
+	"extractor": "mfcc",
+	"aggregator": "vector_quantization",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.9691352323799962,
+	"extractor": "mfcc",
+	"aggregator": "vector_quantization",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.0,
+	"extractor": "mfcc",
+	"aggregator": "vector_quantization",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.41584599694041835,
+	"extractor": "mfcc",
+	"aggregator": "vector_quantization_default",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.7284330556199782,
+	"extractor": "mfcc",
+	"aggregator": "vector_quantization_default",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.8113654414027925,
+	"extractor": "mfcc",
+	"aggregator": "vector_quantization_default",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.33710010067861035,
+	"extractor": "mfcc",
+	"aggregator": "vector_quantization_default",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.7456998614172935,
+	"extractor": "mfcc",
+	"aggregator": "statistical_summarization_2",
+	"distance": "earth_movers_distance"
+},
+{
+	"iicsr": 0.9758634181731254,
+	"extractor": "mfcc",
+	"aggregator": "statistical_summarization_2",
+	"distance": "monte_carlo_distance"
+},
+{
+	"iicsr": 0.6854643169906335,
+	"extractor": "spectral_contrast",
+	"aggregator": "basic_stats_1",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.4987732819533859,
+	"extractor": "spectral_contrast",
+	"aggregator": "basic_stats_1",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.28004550932513,
+	"extractor": "spectral_contrast",
+	"aggregator": "basic_stats_1",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.6670803372468205,
+	"extractor": "spectral_contrast",
+	"aggregator": "basic_stats_1",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.5983026130984789,
+	"extractor": "spectral_contrast",
+	"aggregator": "basic_stats_2",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.5194424599675954,
+	"extractor": "spectral_contrast",
+	"aggregator": "basic_stats_2",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.46951282947673095,
+	"extractor": "spectral_contrast",
+	"aggregator": "basic_stats_2",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.6595401382927881,
+	"extractor": "spectral_contrast",
+	"aggregator": "basic_stats_2",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.6831120711880286,
+	"extractor": "spectral_contrast",
+	"aggregator": "diff_stats_1",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.5004188217808867,
+	"extractor": "spectral_contrast",
+	"aggregator": "diff_stats_1",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.28004550932513,
+	"extractor": "spectral_contrast",
+	"aggregator": "diff_stats_1",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.6701927031058742,
+	"extractor": "spectral_contrast",
+	"aggregator": "diff_stats_1",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.6403034645068768,
+	"extractor": "spectral_contrast",
+	"aggregator": "diff_stats_2",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.5266679822451243,
+	"extractor": "spectral_contrast",
+	"aggregator": "diff_stats_2",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.6246281704925539,
+	"extractor": "spectral_contrast",
+	"aggregator": "diff_stats_2",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.6713119712620829,
+	"extractor": "spectral_contrast",
+	"aggregator": "diff_stats_2",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.6977891261347208,
+	"extractor": "spectral_contrast",
+	"aggregator": "statistical_summarization",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.6210677201621613,
+	"extractor": "spectral_contrast",
+	"aggregator": "statistical_summarization",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.638991546279633,
+	"extractor": "spectral_contrast",
+	"aggregator": "statistical_summarization",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.3715067478074088,
+	"extractor": "spectral_contrast",
+	"aggregator": "statistical_summarization",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.9111888312242672,
+	"extractor": "spectral_contrast",
+	"aggregator": "gaussian_mixture_model_default",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 1.0111826284018428,
+	"extractor": "spectral_contrast",
+	"aggregator": "gaussian_mixture_model_default",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 1.074811088457904,
+	"extractor": "spectral_contrast",
+	"aggregator": "gaussian_mixture_model_default",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.9269343676041123,
+	"extractor": "spectral_contrast",
+	"aggregator": "gaussian_mixture_model_default",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.03407771845725271,
+	"extractor": "spectral_contrast",
+	"aggregator": "vector_quantization",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.8931457292220517,
+	"extractor": "spectral_contrast",
+	"aggregator": "vector_quantization",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.9974318717634205,
+	"extractor": "spectral_contrast",
+	"aggregator": "vector_quantization",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.00540548546453971,
+	"extractor": "spectral_contrast",
+	"aggregator": "vector_quantization",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.01257245997597628,
+	"extractor": "spectral_contrast",
+	"aggregator": "vector_quantization_default",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.15670175410263476,
+	"extractor": "spectral_contrast",
+	"aggregator": "vector_quantization_default",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.012108891703615466,
+	"extractor": "spectral_contrast",
+	"aggregator": "vector_quantization_default",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.004632330155687373,
+	"extractor": "spectral_contrast",
+	"aggregator": "vector_quantization_default",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.8508435158696368,
+	"extractor": "spectral_contrast",
+	"aggregator": "statistical_summarization_2",
+	"distance": "earth_movers_distance"
+},
+{
+	"iicsr": 0.966623465221191,
+	"extractor": "spectral_contrast",
+	"aggregator": "statistical_summarization_2",
+	"distance": "monte_carlo_distance"
+},
+{
+	"iicsr": 1.0674422050247474,
+	"extractor": "tonnetz",
+	"aggregator": "basic_stats_1",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 1.0501702505161992,
+	"extractor": "tonnetz",
+	"aggregator": "basic_stats_1",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 1.0432969094767774,
+	"extractor": "tonnetz",
+	"aggregator": "basic_stats_1",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 1.027969768088607,
+	"extractor": "tonnetz",
+	"aggregator": "basic_stats_1",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.9153776803181114,
+	"extractor": "tonnetz",
+	"aggregator": "basic_stats_2",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.9123098668326006,
+	"extractor": "tonnetz",
+	"aggregator": "basic_stats_2",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.8334222554819061,
+	"extractor": "tonnetz",
+	"aggregator": "basic_stats_2",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.9993445323125608,
+	"extractor": "tonnetz",
+	"aggregator": "basic_stats_2",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 1.0310785010677777,
+	"extractor": "tonnetz",
+	"aggregator": "diff_stats_1",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 1.0439418400839264,
+	"extractor": "tonnetz",
+	"aggregator": "diff_stats_1",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 1.045866222647632,
+	"extractor": "tonnetz",
+	"aggregator": "diff_stats_1",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 1.0197699182009488,
+	"extractor": "tonnetz",
+	"aggregator": "diff_stats_1",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.7911201470926077,
+	"extractor": "tonnetz",
+	"aggregator": "diff_stats_2",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.7334376939815896,
+	"extractor": "tonnetz",
+	"aggregator": "diff_stats_2",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 0.6482980054669646,
+	"extractor": "tonnetz",
+	"aggregator": "diff_stats_2",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.9125281636424194,
+	"extractor": "tonnetz",
+	"aggregator": "diff_stats_2",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 1.0149937168368344,
+	"extractor": "tonnetz",
+	"aggregator": "statistical_summarization",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 1.0053542194913192,
+	"extractor": "tonnetz",
+	"aggregator": "statistical_summarization",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 1.027865338199607,
+	"extractor": "tonnetz",
+	"aggregator": "statistical_summarization",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.9386153075332904,
+	"extractor": "tonnetz",
+	"aggregator": "statistical_summarization",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.7998430266164149,
+	"extractor": "tonnetz",
+	"aggregator": "gaussian_mixture_model_default",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 0.8947048754096757,
+	"extractor": "tonnetz",
+	"aggregator": "gaussian_mixture_model_default",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 1.142907957272542,
+	"extractor": "tonnetz",
+	"aggregator": "gaussian_mixture_model_default",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.817861849214114,
+	"extractor": "tonnetz",
+	"aggregator": "gaussian_mixture_model_default",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.8781813337774309,
+	"extractor": "tonnetz",
+	"aggregator": "vector_quantization",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 1.020425695561096,
+	"extractor": "tonnetz",
+	"aggregator": "vector_quantization",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 1.0182160520066545,
+	"extractor": "tonnetz",
+	"aggregator": "vector_quantization",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 0.7064291525196628,
+	"extractor": "tonnetz",
+	"aggregator": "vector_quantization",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 0.9733828373349238,
+	"extractor": "tonnetz",
+	"aggregator": "vector_quantization_default",
+	"distance": "manhattan_distance"
+},
+{
+	"iicsr": 1.0152083199149968,
+	"extractor": "tonnetz",
+	"aggregator": "vector_quantization_default",
+	"distance": "euclidean_distance"
+},
+{
+	"iicsr": 1.058374300225403,
+	"extractor": "tonnetz",
+	"aggregator": "vector_quantization_default",
+	"distance": "chebyshev_distance"
+},
+{
+	"iicsr": 1.0058530483469301,
+	"extractor": "tonnetz",
+	"aggregator": "vector_quantization_default",
+	"distance": "cosine_distance"
+},
+{
+	"iicsr": 1.0087286648638187,
+	"extractor": "tonnetz",
+	"aggregator": "statistical_summarization_2",
+	"distance": "earth_movers_distance"
+},
+{
+	"iicsr": 1.0070608883514116,
+	"extractor": "tonnetz",
+	"aggregator": "statistical_summarization_2",
+	"distance": "monte_carlo_distance"
+},
+{
+	"iicsr": 1.0534609955393632,
+	"extractor": "chroma_stft",
+	"aggregator": "basic_stats_1",
+	"distance": "manhattan_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 1.0760830291257213,
+	"extractor": "chroma_stft",
+	"aggregator": "basic_stats_1",
+	"distance": "euclidean_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 1.1158518706957394,
+	"extractor": "chroma_stft",
+	"aggregator": "basic_stats_1",
+	"distance": "chebyshev_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 1.0364835237546202,
+	"extractor": "chroma_stft",
+	"aggregator": "basic_stats_1",
+	"distance": "cosine_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 1.040530689009035,
+	"extractor": "chroma_stft",
+	"aggregator": "basic_stats_2",
+	"distance": "manhattan_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 1.066270772472738,
+	"extractor": "chroma_stft",
+	"aggregator": "basic_stats_2",
+	"distance": "euclidean_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 1.118194847367716,
+	"extractor": "chroma_stft",
+	"aggregator": "basic_stats_2",
+	"distance": "chebyshev_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 1.0326896111951462,
+	"extractor": "chroma_stft",
+	"aggregator": "basic_stats_2",
+	"distance": "cosine_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 0.9710985383838724,
+	"extractor": "chroma_stft",
+	"aggregator": "diff_stats_1",
+	"distance": "manhattan_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 1.0108346011637481,
+	"extractor": "chroma_stft",
+	"aggregator": "diff_stats_1",
+	"distance": "euclidean_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 1.1166389351320098,
+	"extractor": "chroma_stft",
+	"aggregator": "diff_stats_1",
+	"distance": "chebyshev_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 1.0080395542921865,
+	"extractor": "chroma_stft",
+	"aggregator": "diff_stats_1",
+	"distance": "cosine_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 0.9240576419087168,
+	"extractor": "chroma_stft",
+	"aggregator": "diff_stats_2",
+	"distance": "manhattan_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 0.9515502482851739,
+	"extractor": "chroma_stft",
+	"aggregator": "diff_stats_2",
+	"distance": "euclidean_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 0.9996440728080654,
+	"extractor": "chroma_stft",
+	"aggregator": "diff_stats_2",
+	"distance": "chebyshev_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 0.9996688312821473,
+	"extractor": "chroma_stft",
+	"aggregator": "diff_stats_2",
+	"distance": "cosine_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 0.8830979267554694,
+	"extractor": "chroma_stft",
+	"aggregator": "statistical_summarization",
+	"distance": "manhattan_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 0.9473570139091859,
+	"extractor": "chroma_stft",
+	"aggregator": "statistical_summarization",
+	"distance": "euclidean_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 1.1415834104856017,
+	"extractor": "chroma_stft",
+	"aggregator": "statistical_summarization",
+	"distance": "chebyshev_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 0.9476125771886469,
+	"extractor": "chroma_stft",
+	"aggregator": "statistical_summarization",
+	"distance": "cosine_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 1.0321783805564473,
+	"extractor": "chroma_cqt",
+	"aggregator": "basic_stats_1",
+	"distance": "manhattan_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 1.0532077893296448,
+	"extractor": "chroma_cqt",
+	"aggregator": "basic_stats_1",
+	"distance": "euclidean_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 1.0505423925809352,
+	"extractor": "chroma_cqt",
+	"aggregator": "basic_stats_1",
+	"distance": "chebyshev_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 1.029535322326342,
+	"extractor": "chroma_cqt",
+	"aggregator": "basic_stats_1",
+	"distance": "cosine_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 1.0141597264303197,
+	"extractor": "chroma_cqt",
+	"aggregator": "basic_stats_2",
+	"distance": "manhattan_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 1.0522742798893818,
+	"extractor": "chroma_cqt",
+	"aggregator": "basic_stats_2",
+	"distance": "euclidean_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 1.0508436698574313,
+	"extractor": "chroma_cqt",
+	"aggregator": "basic_stats_2",
+	"distance": "chebyshev_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 1.0376837859669552,
+	"extractor": "chroma_cqt",
+	"aggregator": "basic_stats_2",
+	"distance": "cosine_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 0.9847911301346535,
+	"extractor": "chroma_cqt",
+	"aggregator": "diff_stats_1",
+	"distance": "manhattan_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 1.0376756049219547,
+	"extractor": "chroma_cqt",
+	"aggregator": "diff_stats_1",
+	"distance": "euclidean_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 1.0505423925809352,
+	"extractor": "chroma_cqt",
+	"aggregator": "diff_stats_1",
+	"distance": "chebyshev_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 1.0239451747299384,
+	"extractor": "chroma_cqt",
+	"aggregator": "diff_stats_1",
+	"distance": "cosine_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 0.8830974153932446,
+	"extractor": "chroma_cqt",
+	"aggregator": "diff_stats_2",
+	"distance": "manhattan_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 0.8490721605730207,
+	"extractor": "chroma_cqt",
+	"aggregator": "diff_stats_2",
+	"distance": "euclidean_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 0.626977582886657,
+	"extractor": "chroma_cqt",
+	"aggregator": "diff_stats_2",
+	"distance": "chebyshev_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 0.9400815584026034,
+	"extractor": "chroma_cqt",
+	"aggregator": "diff_stats_2",
+	"distance": "cosine_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 1.1310141199426955,
+	"extractor": "chroma_cqt",
+	"aggregator": "statistical_summarization",
+	"distance": "manhattan_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 1.0722936958984954,
+	"extractor": "chroma_cqt",
+	"aggregator": "statistical_summarization",
+	"distance": "euclidean_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 1.0474173337330057,
+	"extractor": "chroma_cqt",
+	"aggregator": "statistical_summarization",
+	"distance": "chebyshev_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 1.0438322834081344,
+	"extractor": "chroma_cqt",
+	"aggregator": "statistical_summarization",
+	"distance": "cosine_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 0.997309529948399,
+	"extractor": "chroma_cens",
+	"aggregator": "basic_stats_1",
+	"distance": "manhattan_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 0.984962152953613,
+	"extractor": "chroma_cens",
+	"aggregator": "basic_stats_1",
+	"distance": "euclidean_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 1.0121847877746577,
+	"extractor": "chroma_cens",
+	"aggregator": "basic_stats_1",
+	"distance": "chebyshev_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 1.006639129061937,
+	"extractor": "chroma_cens",
+	"aggregator": "basic_stats_1",
+	"distance": "cosine_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 0.919853576145115,
+	"extractor": "chroma_cens",
+	"aggregator": "basic_stats_2",
+	"distance": "manhattan_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 0.8976062147324824,
+	"extractor": "chroma_cens",
+	"aggregator": "basic_stats_2",
+	"distance": "euclidean_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 0.8268594798887667,
+	"extractor": "chroma_cens",
+	"aggregator": "basic_stats_2",
+	"distance": "chebyshev_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 0.9963518905136034,
+	"extractor": "chroma_cens",
+	"aggregator": "basic_stats_2",
+	"distance": "cosine_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 0.9926081897594015,
+	"extractor": "chroma_cens",
+	"aggregator": "diff_stats_1",
+	"distance": "manhattan_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 0.9847552916660837,
+	"extractor": "chroma_cens",
+	"aggregator": "diff_stats_1",
+	"distance": "euclidean_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 1.0121847877746577,
+	"extractor": "chroma_cens",
+	"aggregator": "diff_stats_1",
+	"distance": "chebyshev_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 1.006492887164523,
+	"extractor": "chroma_cens",
+	"aggregator": "diff_stats_1",
+	"distance": "cosine_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 0.6349276563774416,
+	"extractor": "chroma_cens",
+	"aggregator": "diff_stats_2",
+	"distance": "manhattan_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 0.47674663616694746,
+	"extractor": "chroma_cens",
+	"aggregator": "diff_stats_2",
+	"distance": "euclidean_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 0.3115538845695776,
+	"extractor": "chroma_cens",
+	"aggregator": "diff_stats_2",
+	"distance": "chebyshev_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 0.6930076216688051,
+	"extractor": "chroma_cens",
+	"aggregator": "diff_stats_2",
+	"distance": "cosine_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 0.9514736907313688,
+	"extractor": "chroma_cens",
+	"aggregator": "statistical_summarization",
+	"distance": "manhattan_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 1.0044966288888049,
+	"extractor": "chroma_cens",
+	"aggregator": "statistical_summarization",
+	"distance": "euclidean_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 1.0093333875831798,
+	"extractor": "chroma_cens",
+	"aggregator": "statistical_summarization",
+	"distance": "chebyshev_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 1.0126368028177941,
+	"extractor": "chroma_cens",
+	"aggregator": "statistical_summarization",
+	"distance": "cosine_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 0.948941024242283,
+	"extractor": "beat_synchronous_chroma_stft",
+	"aggregator": "basic_stats_1",
+	"distance": "manhattan_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 0.9764866260886532,
+	"extractor": "beat_synchronous_chroma_stft",
+	"aggregator": "basic_stats_1",
+	"distance": "euclidean_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 1.0464133722782532,
+	"extractor": "beat_synchronous_chroma_stft",
+	"aggregator": "basic_stats_1",
+	"distance": "chebyshev_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 0.982259521711558,
+	"extractor": "beat_synchronous_chroma_stft",
+	"aggregator": "basic_stats_1",
+	"distance": "cosine_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 0.9975531945622702,
+	"extractor": "beat_synchronous_chroma_stft",
+	"aggregator": "basic_stats_2",
+	"distance": "manhattan_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 1.0582935257734034,
+	"extractor": "beat_synchronous_chroma_stft",
+	"aggregator": "basic_stats_2",
+	"distance": "euclidean_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 1.1926516280092572,
+	"extractor": "beat_synchronous_chroma_stft",
+	"aggregator": "basic_stats_2",
+	"distance": "chebyshev_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 1.020802063251208,
+	"extractor": "beat_synchronous_chroma_stft",
+	"aggregator": "basic_stats_2",
+	"distance": "cosine_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 0.9853484825441343,
+	"extractor": "beat_synchronous_chroma_stft",
+	"aggregator": "diff_stats_1",
+	"distance": "manhattan_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 0.9975227781642213,
+	"extractor": "beat_synchronous_chroma_stft",
+	"aggregator": "diff_stats_1",
+	"distance": "euclidean_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 1.0500314425569959,
+	"extractor": "beat_synchronous_chroma_stft",
+	"aggregator": "diff_stats_1",
+	"distance": "chebyshev_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 1.0031077498081546,
+	"extractor": "beat_synchronous_chroma_stft",
+	"aggregator": "diff_stats_1",
+	"distance": "cosine_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 0.882317089843352,
+	"extractor": "beat_synchronous_chroma_stft",
+	"aggregator": "diff_stats_2",
+	"distance": "manhattan_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 0.8546533226375624,
+	"extractor": "beat_synchronous_chroma_stft",
+	"aggregator": "diff_stats_2",
+	"distance": "euclidean_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 0.8140299780087323,
+	"extractor": "beat_synchronous_chroma_stft",
+	"aggregator": "diff_stats_2",
+	"distance": "chebyshev_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 0.9927371312237973,
+	"extractor": "beat_synchronous_chroma_stft",
+	"aggregator": "diff_stats_2",
+	"distance": "cosine_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 0.8491411681935396,
+	"extractor": "beat_synchronous_chroma_stft",
+	"aggregator": "statistical_summarization",
+	"distance": "manhattan_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 0.9384644023720318,
+	"extractor": "beat_synchronous_chroma_stft",
+	"aggregator": "statistical_summarization",
+	"distance": "euclidean_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 1.1030478409404953,
+	"extractor": "beat_synchronous_chroma_stft",
+	"aggregator": "statistical_summarization",
+	"distance": "chebyshev_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 0.9346363418153983,
+	"extractor": "beat_synchronous_chroma_stft",
+	"aggregator": "statistical_summarization",
+	"distance": "cosine_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 0.9523773600484652,
+	"extractor": "beat_synchronous_chroma_cqt",
+	"aggregator": "basic_stats_1",
+	"distance": "manhattan_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 0.9665757092834384,
+	"extractor": "beat_synchronous_chroma_cqt",
+	"aggregator": "basic_stats_1",
+	"distance": "euclidean_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 0.9375586683573214,
+	"extractor": "beat_synchronous_chroma_cqt",
+	"aggregator": "basic_stats_1",
+	"distance": "chebyshev_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 0.97036193356801,
+	"extractor": "beat_synchronous_chroma_cqt",
+	"aggregator": "basic_stats_1",
+	"distance": "cosine_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 0.9519654898965444,
+	"extractor": "beat_synchronous_chroma_cqt",
+	"aggregator": "basic_stats_2",
+	"distance": "manhattan_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 0.983801150439382,
+	"extractor": "beat_synchronous_chroma_cqt",
+	"aggregator": "basic_stats_2",
+	"distance": "euclidean_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 1.0197843445628447,
+	"extractor": "beat_synchronous_chroma_cqt",
+	"aggregator": "basic_stats_2",
+	"distance": "chebyshev_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 1.0041845232013202,
+	"extractor": "beat_synchronous_chroma_cqt",
+	"aggregator": "basic_stats_2",
+	"distance": "cosine_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 0.9739195976034728,
+	"extractor": "beat_synchronous_chroma_cqt",
+	"aggregator": "diff_stats_1",
+	"distance": "manhattan_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 0.9740651647534115,
+	"extractor": "beat_synchronous_chroma_cqt",
+	"aggregator": "diff_stats_1",
+	"distance": "euclidean_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 0.9419664924906651,
+	"extractor": "beat_synchronous_chroma_cqt",
+	"aggregator": "diff_stats_1",
+	"distance": "chebyshev_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 0.967955942861427,
+	"extractor": "beat_synchronous_chroma_cqt",
+	"aggregator": "diff_stats_1",
+	"distance": "cosine_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 0.8936088712804475,
+	"extractor": "beat_synchronous_chroma_cqt",
+	"aggregator": "diff_stats_2",
+	"distance": "manhattan_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 0.8914644065814079,
+	"extractor": "beat_synchronous_chroma_cqt",
+	"aggregator": "diff_stats_2",
+	"distance": "euclidean_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 0.6894053522292023,
+	"extractor": "beat_synchronous_chroma_cqt",
+	"aggregator": "diff_stats_2",
+	"distance": "chebyshev_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 0.9971781182215721,
+	"extractor": "beat_synchronous_chroma_cqt",
+	"aggregator": "diff_stats_2",
+	"distance": "cosine_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 0.9951841634775753,
+	"extractor": "beat_synchronous_chroma_cqt",
+	"aggregator": "statistical_summarization",
+	"distance": "manhattan_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 0.9977363329886306,
+	"extractor": "beat_synchronous_chroma_cqt",
+	"aggregator": "statistical_summarization",
+	"distance": "euclidean_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 0.9328982010712475,
+	"extractor": "beat_synchronous_chroma_cqt",
+	"aggregator": "statistical_summarization",
+	"distance": "chebyshev_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 0.9800301587575431,
+	"extractor": "beat_synchronous_chroma_cqt",
+	"aggregator": "statistical_summarization",
+	"distance": "cosine_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 1.0091557760591618,
+	"extractor": "beat_synchronous_chroma_cens",
+	"aggregator": "basic_stats_1",
+	"distance": "manhattan_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 0.996434336585003,
+	"extractor": "beat_synchronous_chroma_cens",
+	"aggregator": "basic_stats_1",
+	"distance": "euclidean_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 0.9651370904756342,
+	"extractor": "beat_synchronous_chroma_cens",
+	"aggregator": "basic_stats_1",
+	"distance": "chebyshev_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 1.013368094449048,
+	"extractor": "beat_synchronous_chroma_cens",
+	"aggregator": "basic_stats_1",
+	"distance": "cosine_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 1.0027384190758306,
+	"extractor": "beat_synchronous_chroma_cens",
+	"aggregator": "basic_stats_2",
+	"distance": "manhattan_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 0.9505702709662038,
+	"extractor": "beat_synchronous_chroma_cens",
+	"aggregator": "basic_stats_2",
+	"distance": "euclidean_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 0.7054426687849932,
+	"extractor": "beat_synchronous_chroma_cens",
+	"aggregator": "basic_stats_2",
+	"distance": "chebyshev_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 1.0126140944324464,
+	"extractor": "beat_synchronous_chroma_cens",
+	"aggregator": "basic_stats_2",
+	"distance": "cosine_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 1.0327874475295424,
+	"extractor": "beat_synchronous_chroma_cens",
+	"aggregator": "diff_stats_1",
+	"distance": "manhattan_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 1.0164873898214644,
+	"extractor": "beat_synchronous_chroma_cens",
+	"aggregator": "diff_stats_1",
+	"distance": "euclidean_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 0.9671673629847539,
+	"extractor": "beat_synchronous_chroma_cens",
+	"aggregator": "diff_stats_1",
+	"distance": "chebyshev_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 1.0169187366241212,
+	"extractor": "beat_synchronous_chroma_cens",
+	"aggregator": "diff_stats_1",
+	"distance": "cosine_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 0.8605430046211736,
+	"extractor": "beat_synchronous_chroma_cens",
+	"aggregator": "diff_stats_2",
+	"distance": "manhattan_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 0.748836030086605,
+	"extractor": "beat_synchronous_chroma_cens",
+	"aggregator": "diff_stats_2",
+	"distance": "euclidean_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 0.7668113726627281,
+	"extractor": "beat_synchronous_chroma_cens",
+	"aggregator": "diff_stats_2",
+	"distance": "chebyshev_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 0.9757492576772684,
+	"extractor": "beat_synchronous_chroma_cens",
+	"aggregator": "diff_stats_2",
+	"distance": "cosine_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 0.9750371844807003,
+	"extractor": "beat_synchronous_chroma_cens",
+	"aggregator": "statistical_summarization",
+	"distance": "manhattan_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 1.0085012856953706,
+	"extractor": "beat_synchronous_chroma_cens",
+	"aggregator": "statistical_summarization",
+	"distance": "euclidean_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 0.9616624261132213,
+	"extractor": "beat_synchronous_chroma_cens",
+	"aggregator": "statistical_summarization",
+	"distance": "chebyshev_distance_dot_product_circular_shifts"
+},
+{
+	"iicsr": 1.0114370595370166,
+	"extractor": "beat_synchronous_chroma_cens",
+	"aggregator": "statistical_summarization",
+	"distance": "cosine_distance_dot_product_circular_shifts"
+}
+]}

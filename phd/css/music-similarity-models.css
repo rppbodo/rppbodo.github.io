@@ -1,0 +1,11 @@
+#table-container { display: none; }
+th { cursor: pointer; }
+th > * { vertical-align:  bottom; }
+.arrows {
+	display: inline-block;
+	width: 19px;
+	height: 19px;
+	background: url("../img/unsorted.png") center center no-repeat;
+}
+.th_sort_asc { background-image: url("../img/sort_asc.png"); }
+.th_sort_desc { background-image: url("../img/sort_desc.png"); }
