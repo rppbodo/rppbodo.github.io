@@ -1,7 +1,7 @@
 <!doctype html>
 <html><head>
 <meta charset="utf-8">
-<title>Cover Song Identification Results</title>
+<title>Cover Song Classification Results</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="./css/experiment_results.css">
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"> </script>
@@ -21,7 +21,7 @@ var getCellValue = function(row, index) {
 
 var onLoad = function() {
 	var datasets = null;
-	$.getJSON("./json/experiment_2.json", function(data) {
+	$.getJSON("./json/experiment_3.json", function(data) {
 		datasets = data.datasets;
 		$.each(datasets, function(key, val) {
 			$(".dataset-select").append($('<option>', {
@@ -33,26 +33,30 @@ var onLoad = function() {
 	
 	$(".dataset-select").change(function() {
 		var dataset = $(".dataset-select").eq(0).children("option:selected").text();
-		$("#results-per-dataset").removeClass("hidden");
-		$("#results-per-dataset tbody").empty();
-		$.getJSON("./json/experiment_2/" + dataset + ".json", function(data) {
+		$("#results-3a").removeClass("hidden");
+		$("#results-3a tbody").empty();
+		$.getJSON("./json/experiment_3/" + dataset + ".json", function(data) {
+			console.log("entrou")
 			$.each(data.results, function(key, val) {
 				var html = "<tr>";
-				html += "<td>" + val.extractor + "</td>";
-				html += "<td>" + val.aggregator + "</td>";
-				html += "<td>" + val.distance + "</td>";
-				html += "<td>" + val.mr + "</td>";
-				html += "<td>" + val.mrr + "</td>";
-				html += "<td>" + val.mdr + "</td>";
-				html += "<td>" + val.map + "</td>";
-				html += "<td>" + val.top1 + "</td>";
-				html += "<td>" + val.top10 + "</td>";
-				html += "<td>" + val.top100 + "</td>";
-				html += "<td>" + val.top1000 + "</td>";
+				html += "<td>" + val.dimension + "</td>";
+				html += "<td>" + val.classifier + "</td>";
+				html += "<td>" + val.f1scoreMean + "</td>";
+				html += "<td>" + val.f1scoreStd + "</td>";
+				html += "<td>" + val.precisionMean + "</td>";
+				html += "<td>" + val.precisionStd + "</td>";
+				html += "<td>" + val.recallMean + "</td>";
+				html += "<td>" + val.recallStd + "</td>";
+				html += "<td>" + val.accuracyMean + "</td>";
+				html += "<td>" + val.accuracyStd + "</td>";
+				html += "<td>" + val.acc0sMean + "</td>";
+				html += "<td>" + val.acc0sStd + "</td>";
+				html += "<td>" + val.acc1sMean + "</td>";
+				html += "<td>" + val.acc1sStd + "</td>";
 				html += "</tr>"
-				$("#results-per-dataset tbody").append(html);
+				$("#results-3a tbody").append(html);
 			});
-			console.log($("#results-per-dataset tr").length);
+			console.log($("#results-3a tr").length);
 		});
 	});
 	
@@ -80,15 +84,32 @@ var onLoad = function() {
 </script>
 </head><body onLoad="onLoad();">
 
-<div id="results-per-dataset-container">
+<div id="results-3a-container">
 	<div class="select-container">
 		Dataset: <select class="dataset-select form-select" aria-label="Default select example">
 			<option selected>--- select one ---</option>
 		</select>
 		</div>
 	
-	<table id="results-per-dataset" class="table table-hover hidden">
-		<thead><tr><th>extractor</th><th>aggregator</th><th>distance</th><th>MR</th><th>MRR</th><th>MDR</th><th>MAP</th><th>Top-1</th><th>Top-10</th><th>Top-100</th><th>Top-1000</th></tr></thead>
+	<table id="results-3a" class="table table-hover hidden">
+		<thead>
+			<tr>
+				<th>dimension</th>
+				<th>classifier</th>
+				<th>f1-score (mean)</th>
+				<th>f1-score (std)</th>
+				<th>precision (mean)</th>
+				<th>precision (std)</th>
+				<th>recall (mean)</th>
+				<th>recall (std)</th>
+				<th>accuracy (mean)</th>
+				<th>accuracy (std)</th>
+				<th>0's accuracy (mean)</th>
+				<th>0's accuracy (std)</th>
+				<th>1's accuracy (mean)</th>
+				<th>1's accuracy (std)</th>
+			</tr>
+		</thead>
 		<tbody></tbody>
 	</table>
 </div>
