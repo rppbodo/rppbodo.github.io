@@ -1,0 +1,129 @@
+<!doctype html>
+<html><head>
+<meta charset="utf-8">
+<title>Cover Song Identification and Classification Results</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="./css/experiment_results.css">
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"> </script>
+<script>
+
+var comparator = function(index) {
+	return function(a, b) {
+		var valA = getCellValue(a, index);
+		var valB = getCellValue(b, index);
+		return $.isNumeric(valA) && $.isNumeric(valB) ? valA - valB : valA.toString().localeCompare(valB);
+	}
+};
+
+var getCellValue = function(row, index) {
+	return $(row).children("td").eq(index).text();
+};
+
+var onLoad = function() {
+	var datasets = null;
+	$.getJSON("./json/experiment_4.json", function(data) {
+		datasets = data.datasets;
+		$.each(datasets, function(key, val) {
+			$(".dataset-select").append($('<option>', {
+				value: key,
+				text: val.name
+			}));
+		});
+	});
+	
+	$(".dataset-select").change(function() {
+		var dataset = $(".dataset-select").eq(0).children("option:selected").text();
+		console.log(dataset);
+		
+		$("#results-4a").removeClass("hidden");
+		$("#results-4a tbody").empty();
+		$.getJSON("./json/experiment_4/" + dataset + ".json", function(data) {
+			console.log("entrou")
+			$.each(data.results, function(key, val) {
+				var html = "<tr>";
+				html += "<td>" + val.trainDataset + "</td>";
+				html += "<td>" + val.dimension + "</td>";
+				html += "<td>" + val.classifier + "</td>";
+				html += "<td>" + val.mrMean + "</td>";
+				html += "<td>" + val.mrStd + "</td>";
+				html += "<td>" + val.mrrMean + "</td>";
+				html += "<td>" + val.mrrStd + "</td>";
+				html += "<td>" + val.mdrMean + "</td>";
+				html += "<td>" + val.mdrStd + "</td>";
+				html += "<td>" + val.mapMean + "</td>";
+				html += "<td>" + val.mapStd + "</td>";
+				html += "<td>" + val.top1Mean + "</td>";
+				html += "<td>" + val.top1Std + "</td>";
+				html += "<td>" + val.top10Mean + "</td>";
+				html += "<td>" + val.top10Std + "</td>";
+				html += "<td>" + val.top100Mean + "</td>";
+				html += "<td>" + val.top100Std + "</td>";
+				html += "<td>" + val.top1000Mean + "</td>";
+				html += "<td>" + val.top1000Std + "</td>";
+				html += "</tr>"
+				$("#results-4a tbody").append(html);
+			});
+			console.log($("#results-4a tr").length);
+		});
+	});
+	
+	$("th").each(function() {
+		$(this).append("<div class=\"arrows\"></div>");
+	});
+	
+	$("th").click(function() {
+		var table = $(this).parents("table").eq(0);
+		var rows = table.find("tr:gt(0)").toArray().sort(comparator($(this).index()));
+		this.asc = !this.asc;
+		$("th").children(".arrows").removeClass("th_sort_desc");
+		$("th").children(".arrows").removeClass("th_sort_asc");
+		if (!this.asc) {
+			rows = rows.reverse();
+			$(this).children(".arrows").addClass("th_sort_asc");
+		} else {
+			$(this).children(".arrows").addClass("th_sort_desc");
+		}
+		for (var i = 0; i < rows.length; i++) {
+			table.append(rows[i]);
+		}
+	});
+};
+</script>
+</head><body onLoad="onLoad();">
+
+<div id="results-4a-container">
+	<div class="select-container">
+		Dataset: <select class="dataset-select form-select" aria-label="Default select example">
+			<option selected>--- select one ---</option>
+		</select>
+		</div>
+	
+	<table id="results-4a" class="table table-hover hidden">
+		<thead>
+			<tr>
+				<th>train dataset</th>
+				<th>dimension</th>
+				<th>classifier</th>
+				<th>MR (mean)</th>
+				<th>MR (std)</th>
+				<th>MRR (mean)</th>
+				<th>MRR (std)</th>
+				<th>MDR (mean)</th>
+				<th>MDR (std)</th>
+				<th>MAP (mean)</th>
+				<th>MAP (std)</th>
+				<th>Top-1 (mean)</th>
+				<th>Top-1 (std)</th>
+				<th>Top-10 (mean)</th>
+				<th>Top-10 (std)</th>
+				<th>Top-100 (mean)</th>
+				<th>Top-100 (std)</th>
+				<th>Top-1000 (mean)</th>
+				<th>Top-1000 (std)</th>
+			</tr>
+		</thead>
+		<tbody></tbody>
+	</table>
+</div>
+
+</body></html>
