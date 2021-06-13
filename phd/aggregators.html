@@ -1,0 +1,73 @@
+<!doctype html>
+<html><head>
+<title>aggregators</title>
+<script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+</head><body>
+
+*** Consider that the local features have the format \((M, N)\), where \(M\) is the number of frames and \(N\) is the dimension of each local feature. ***
+
+<h2>Single Gaussian</h2>
+
+<h4>basic_stats_1</h4>
+
+\([\mu_{1}, \mu_{2}, ... , \mu_{N}, \sigma_{1}, \sigma_{2}, ... , \sigma_{N}]\)
+
+<h4>basic_stats_2</h4>
+
+\([\mu_{1}, ... , \mu_{N}, \sigma_{1}, ... , \sigma_{N}, min_1, ... , min_N, max_1, ... , max_N]\)
+
+<h4>diff_stats_1</h4>
+
+\([\mu_{1}, ... , \mu_{N}, \sigma_{1}, ... , \sigma_{N}, \mu_{diff_{1}}, ... , \mu_{diff_{N}}, \sigma_{diff_{1}}, ... , \sigma_{diff_{N}}]\)
+
+<h4>diff_stats_2</h4>
+
+\([\mu_{1}, ... , \mu_{N}, \sigma_{1}, ... , \sigma_{N}, min_1, ... , min_N, max_1, ... , max_N, \mu_{diff_{1}}, ... , \mu_{diff_{N}}, \sigma_{diff_{1}}, ... , \sigma_{diff_{N}}, min_{diff_{1}}, ... , min_{diff_{N}}, max_{diff_{1}}, ... , max_{diff_{N}}]\)
+
+<h4>vector_quantization</h4>
+
+\(N\) means + \(N\) variances + \(\frac{N(N-1)}{2}\) covariances
+
+<h2>Gaussian Mixture Model with \(K\) components</h2>
+
+\((K, N)\) mean matrix + \((K, N, N)\) covariance tensor + \(K\) weight vector (all flattened and concatenated to form a single vector)
+
+<h2>Octave Abstraction</h2>
+
+\(octave\_abstraction(i) = pitch(i) \% 12\)
+
+<h2>Interval Abstraction</h2>
+
+\(interval\_abstraction(i) = pitch(i+1) - pitch(i)\)
+
+<h2>3-level Pitch Contour</h2>
+
+\(pc_{3\_levels}(i) = \begin{cases}
+'u', pitch(i) > pitch(i-1) \\
+'d', pitch(i) < pitch(i-1) \\
+'r', otherwise.
+\end{cases}\)
+
+<h2>5-level Pitch Contour</h2>
+
+\(p_{5\_levels}(i) = \begin{cases}
+'U', pitch(i) > pitch(i-2) \\
+'D', pitch(i) < pitch(i-2) \\
+\begin{cases}
+'u', pitch(i) > pitch(i-1) \\
+'d', pitch(i) < pitch(i-1) \\
+'r', pitch(i) = pitch(i-1)
+\end{cases}, pitch(i) = pitch(i-2)
+\end{cases}\)
+
+<h2>Markov Chain<h2>
+
+<img src="markov.jpg" />
+
+<h2>Vector Quantization with <a href="https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html" target="_blank">k-means</a></h2>
+
+<img src="kmeans_01.jpg" />
+<img src="kmeans_02.jpg" />
+
+</body>
+</html>
