@@ -2,6 +2,7 @@
 <html><head>
 <meta charset="utf-8">
 <title>Music Similarity Models</title>
+<script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="./css/d3js.css">
 <link rel="stylesheet" type="text/css" href="./css/music-similarity-models.css">
@@ -23,13 +24,18 @@ var onLoad = function() {
 	$(".nav-link").click(function() {
 		$(".nav-link").removeClass("active");
 		$(this).addClass("active");
+		$(".container").hide();
 		var index = $(this).parents().eq(0).index();
 		if (index == 0) {
 			$("#chart-container").show();
-			$("#table-container").hide();
 		} else if (index == 1) {
-			$("#chart-container").hide();
 			$("#table-container").show();
+		} else if (index == 2) {
+			$("#extractors-container").show();
+		} else if (index == 3) {
+			$("#aggregators-container").show();
+		} else if (index == 4) {
+			$("#distances-container").show();
 		}
 	});
 	
@@ -67,12 +73,18 @@ var onLoad = function() {
 };
 </script>
 </head><body onLoad="onLoad();">
+
 <ul class="nav nav-tabs">
-<li class="nav-item"><a class="nav-link active" href="#">Chart</a></li>
-<li class="nav-item"><a class="nav-link" href="#">Table</a></li>
+	<li class="nav-item"><a class="nav-link active" href="#">chart</a></li>
+	<li class="nav-item"><a class="nav-link" href="#">table</a></li>
+	<li class="nav-item"><a class="nav-link" href="#">extractors</a></li>
+	<li class="nav-item"><a class="nav-link" href="#">aggregators</a></li>
+	<li class="nav-item"><a class="nav-link" href="#">distances</a></li>
 </ul>
-<div id="chart-container"></div>
-<div id="table-container">
+
+<div id="chart-container" class="container"></div>
+
+<div id="table-container" class="container hidden">
 	<table class="table table-hover">
 		<thead>
 			<tr><th>extractor</th><th>aggregator</th><th>distance</th></tr>
@@ -81,6 +93,199 @@ var onLoad = function() {
 		</tbody>
 	</table>
 </div>
+
+<div id="extractors-container" class="container hidden">
+
+<h3>librosa</h3>
+
+<h4>chroma_cens</h4>
+
+<a href="https://librosa.org/doc/latest/generated/librosa.feature.chroma_cens.html">https://librosa.org/doc/latest/generated/librosa.feature.chroma_cens.html</a>
+
+<h4>chroma_cqt</h4>
+
+<a href="https://librosa.org/doc/latest/generated/librosa.feature.chroma_cqt.html">https://librosa.org/doc/latest/generated/librosa.feature.chroma_cqt.html</a>
+
+<h4>chroma_stft</h4>
+
+<a href="https://librosa.org/doc/latest/generated/librosa.feature.chroma_stft.html">https://librosa.org/doc/latest/generated/librosa.feature.chroma_stft.html</a>
+
+<h4>melspectrogram</h4>
+
+<a href="https://librosa.org/doc/latest/generated/librosa.feature.melspectrogram.html">https://librosa.org/doc/latest/generated/librosa.feature.melspectrogram.html</a>
+
+<h4>rms</h4>
+
+<a href="https://librosa.org/doc/latest/generated/librosa.feature.rms.html">https://librosa.org/doc/latest/generated/librosa.feature.rms.html</a>
+
+<h4>spectral_bandwidth</h4>
+
+<a href="https://librosa.org/doc/latest/generated/librosa.feature.spectral_bandwidth.html">https://librosa.org/doc/latest/generated/librosa.feature.spectral_bandwidth.html</a>
+
+<h4>spectral_centroid</h4>
+
+<a href="https://librosa.org/doc/latest/generated/librosa.feature.spectral_centroid.html">https://librosa.org/doc/latest/generated/librosa.feature.spectral_centroid.html</a>
+
+<h4>spectral_contrast</h4>
+
+<a href="https://librosa.org/doc/latest/generated/librosa.feature.spectral_contrast.html">https://librosa.org/doc/latest/generated/librosa.feature.spectral_contrast.html</a>
+
+<h4>spectral_flatness</h4>
+
+<a href="https://librosa.org/doc/latest/generated/librosa.feature.spectral_flatness.html">https://librosa.org/doc/latest/generated/librosa.feature.spectral_flatness.html</a>
+
+<h4>spectral_rolloff</h4>
+
+<a href="https://librosa.org/doc/latest/generated/librosa.feature.spectral_rolloff.html">https://librosa.org/doc/latest/generated/librosa.feature.spectral_rolloff.html</a>
+
+<h4>tonnetz</h4>
+
+<a href="https://librosa.org/doc/latest/generated/librosa.feature.tonnetz.html">https://librosa.org/doc/latest/generated/librosa.feature.tonnetz.html</a>
+
+<h4>zero_crossing_rate</h4>
+
+<a href="https://librosa.org/doc/latest/generated/librosa.feature.zero_crossing_rate.html">https://librosa.org/doc/latest/generated/librosa.feature.zero_crossing_rate.html</a>
+
+<hr />
+
+<h3>essentia</h3>
+
+<h4>mfcc</h4>
+
+<a href="https://essentia.upf.edu/reference/std_MFCC.html">https://essentia.upf.edu/reference/std_MFCC.html</a>
+
+<h4>pitch_contour_segmentation</h4>
+
+<a href="https://essentia.upf.edu/reference/std_PitchMelodia.html">https://essentia.upf.edu/reference/std_PitchMelodia.html</a>
+<br />
+<a href="https://essentia.upf.edu/reference/std_PitchContourSegmentation.html">https://essentia.upf.edu/reference/std_PitchContourSegmentation.html</a>
+
+<hr />
+
+<h3>RP_extract</h3>
+
+<h4>modulation_variance_descriptor</h4>
+<h4>rhythm_histogram</h4>
+<h4>rhythm_pattern</h4>
+<h4>statistical_spectrum_descriptor</h4>
+<h4>temporal_rhythm_histogram</h4>
+<h4>temporal_statistical_spectrum_descriptor</h4>
+
+<a href="https://github.com/tuwien-musicir/rp_extract">https://github.com/tuwien-musicir/rp_extract</a>
+<br />
+<a href="http://ifs.tuwien.ac.at/mir/audiofeatureextraction.html">http://ifs.tuwien.ac.at/mir/audiofeatureextraction.html</a>
+
+</div>
+
+<div id="aggregators-container" class="container hidden">
+
+*** Consider that the local features have the format \((M, N)\), where \(M\) is the number of frames and \(N\) is the dimension of each local feature. ***
+
+<h3>Single Gaussian</h3>
+
+<h4>basic_stats_1</h4>
+
+\([\mu_{1}, \mu_{2}, ... , \mu_{N}, \sigma_{1}, \sigma_{2}, ... , \sigma_{N}]\)
+
+<h4>basic_stats_2</h4>
+
+\([\mu_{1}, ... , \mu_{N}, \sigma_{1}, ... , \sigma_{N}, min_1, ... , min_N, max_1, ... , max_N]\)
+
+<h4>diff_stats_1</h4>
+
+\([\mu_{1}, ... , \mu_{N}, \sigma_{1}, ... , \sigma_{N}, \mu_{diff_{1}}, ... , \mu_{diff_{N}}, \sigma_{diff_{1}}, ... , \sigma_{diff_{N}}]\)
+
+<h4>diff_stats_2</h4>
+
+\([\mu_{1}, ... , \mu_{N}, \sigma_{1}, ... , \sigma_{N}, min_1, ... , min_N, max_1, ... , max_N, \mu_{diff_{1}}, ... , \mu_{diff_{N}}, \sigma_{diff_{1}}, ... , \sigma_{diff_{N}}, min_{diff_{1}}, ... , min_{diff_{N}}, max_{diff_{1}}, ... , max_{diff_{N}}]\)
+
+<h4>vector_quantization</h4>
+
+\(N\) means + \(N\) variances + \(\frac{N(N-1)}{2}\) covariances
+
+<hr />
+
+<h3>Gaussian Mixture Model with \(K\) components</h3>
+
+\((K, N)\) mean matrix + \((K, N, N)\) covariance tensor + \(K\) weight vector (all flattened and concatenated to form a single vector)
+
+<hr />
+
+<h3>Octave Abstraction</h3>
+
+\(octave\_abstraction(i) = pitch(i) \% 12\)
+
+<hr />
+
+<h3>Interval Abstraction</h3>
+
+\(interval\_abstraction(i) = pitch(i+1) - pitch(i)\)
+
+<hr />
+
+<h3>3-level Pitch Contour</h3>
+
+\(pc_{3\_levels}(i) = \begin{cases}
+'u', pitch(i) > pitch(i-1) \\
+'d', pitch(i) < pitch(i-1) \\
+'r', otherwise.
+\end{cases}\)
+
+<hr />
+
+<h3>5-level Pitch Contour</h3>
+
+\(pc_{5\_levels}(i) = \begin{cases}
+'U', pitch(i) > pitch(i-2) \\
+'D', pitch(i) < pitch(i-2) \\
+\begin{cases}
+'u', pitch(i) > pitch(i-1) \\
+'d', pitch(i) < pitch(i-1) \\
+'r', pitch(i) = pitch(i-1)
+\end{cases}, pitch(i) = pitch(i-2)
+\end{cases}\)
+
+<hr />
+
+<h3>Markov Chain<h3>
+
+<img src="markov.jpg" />
+
+<hr />
+
+<h3>Vector Quantization with <a href="https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html">k-means</a></h3>
+
+<img src="kmeans_01.jpg" />
+<img src="kmeans_02.jpg" />
+
+</div>
+
+<div id="distances-container" class="container hidden">
+chebyshev_distance
+circular_chebyshev
+circular_cosine
+circular_euclidean
+circular_manhattan
+cosine_distance
+earth_movers_distance
+euclidean_distance
+kullback_leibler_distance
+lcs_circular_max
+lcs_circular_mean
+lcs_circular_min
+lcs_max
+lcs_mean
+lcs_min
+levenshtein_circular_max
+levenshtein_circular_mean
+levenshtein_circular_min
+levenshtein_max
+levenshtein_mean
+levenshtein_min
+manhattan_distance
+monte_carlo_distance
+</div>
+
 <script type="module">
 
 import define from "./js/music-similarity-models.js";
