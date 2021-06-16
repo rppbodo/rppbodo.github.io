@@ -199,7 +199,7 @@ var onLoad = function() {
 
 \([\mu_{1}, ... , \mu_{N}, \sigma_{1}, ... , \sigma_{N}, min_1, ... , min_N, max_1, ... , max_N, \mu_{diff_{1}}, ... , \mu_{diff_{N}}, \sigma_{diff_{1}}, ... , \sigma_{diff_{N}}, min_{diff_{1}}, ... , min_{diff_{N}}, max_{diff_{1}}, ... , max_{diff_{N}}]\)
 
-<h4>vector_quantization</h4>
+<h4>statistical_summarization</h4>
 
 \(N\) means + \(N\) variances + \(\frac{N(N-1)}{2}\) covariances
 
@@ -258,6 +258,11 @@ var onLoad = function() {
 <img src="kmeans_01.jpg" />
 <img src="kmeans_02.jpg" />
 
+<h4>vector_quantization</h4>
+<h4>vector_quantization_default</h4>
+
+The first one has number of clusters equals to number of classes, the second one has number of clusters equals to the algorithm's default value.
+
 </div>
 
 <div id="distances-container" class="container hidden">
@@ -309,12 +314,12 @@ Let \(T_A = \begin{bmatrix}
 ta_{0,0} & ... & ta_{0,11} \\
 \vdots & \ddots & \vdots \\
 ta_{11,0} & ... & ta_{11,11} \\
-\end{bmatrix}\) be the transiotion matrix of Markov chain A, and
+\end{bmatrix}\) be the transition matrix of Markov chain A, and
 \(T_B = \begin{bmatrix}
 tb_{0,0} & ... & tb_{0,11} \\
 \vdots & \ddots & \vdots \\
 tb_{11,0} & ... & tb_{11,11} \\
-\end{bmatrix}\) be the transiotion matrix of Markov chain B.
+\end{bmatrix}\) be the transition matrix of Markov chain B.
 We perform vertical and horizontal circular shifts on \(T_B\) to verify all position transitions.
 After the best transition is found, we compute the distance between flattened \(T_A\) and
 flattened transposed \(T_B\).
