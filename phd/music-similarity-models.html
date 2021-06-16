@@ -261,29 +261,128 @@ var onLoad = function() {
 </div>
 
 <div id="distances-container" class="container hidden">
-chebyshev_distance
-circular_chebyshev
-circular_cosine
-circular_euclidean
-circular_manhattan
-cosine_distance
-earth_movers_distance
-euclidean_distance
-kullback_leibler_distance
-lcs_circular_max
-lcs_circular_mean
-lcs_circular_min
-lcs_max
-lcs_mean
-lcs_min
-levenshtein_circular_max
-levenshtein_circular_mean
-levenshtein_circular_min
-levenshtein_max
-levenshtein_mean
-levenshtein_min
-manhattan_distance
-monte_carlo_distance
+
+<h2>between vectors</h2>
+
+<h3>chebyshev_distance</h3>
+
+<a href="https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.distance.chebyshev.html">https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.distance.chebyshev.html</a>
+
+<h3>cosine_distance</h3>
+
+<a href="https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.distance.cosine.html">https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.distance.cosine.html</a>
+
+<h3>euclidean_distance</h3>
+
+<a href="https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.distance.euclidean.html">https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.distance.euclidean.html</a>
+
+<h3>manhattan_distance</h3>
+
+<a href="https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.distance.cityblock.html">https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.distance.cityblock.html</a>
+
+<hr />
+
+<h2>between distributions</h2>
+
+<h3>earth_movers_distance</h3>
+
+<a href="https://pypi.org/project/pyemd/">https://pypi.org/project/pyemd/</a>
+
+<h3>kullback_leibler_distance</h3>
+
+<a href="https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.entropy.html">https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.entropy.html</a>
+
+<h3>monte_carlo_distance</h3>
+
+<a href="https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.multivariate_normal.html">https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.multivariate_normal.html</a>
+
+<hr />
+
+<h2>between Markov chains</h2>
+
+<h3>circular_chebyshev</h3>
+<h3>circular_cosine</h3>
+<h3>circular_euclidean</h3>
+<h3>circular_manhattan</h3>
+
+Let \(T_A = \begin{bmatrix}
+ta_{0,0} & ... & ta_{0,11} \\
+\vdots & \ddots & \vdots \\
+ta_{11,0} & ... & ta_{11,11} \\
+\end{bmatrix}\) be the transiotion matrix of Markov chain A, and
+\(T_B = \begin{bmatrix}
+tb_{0,0} & ... & tb_{0,11} \\
+\vdots & \ddots & \vdots \\
+tb_{11,0} & ... & tb_{11,11} \\
+\end{bmatrix}\) be the transiotion matrix of Markov chain B.
+We perform vertical and horizontal circular shifts on \(T_B\) to verify all position transitions.
+After the best transition is found, we compute the distance between flattened \(T_A\) and
+flattened transposed \(T_B\).
+
+<hr />
+
+<h2>between symbolic sequences</h2>
+
+Let \(A\) and \(B\) be two non-empty sequences to be compared.
+
+<h3>lcs_max</h3>
+<h3>lcs_mean</h3>
+<h3>lcs_min</h3>
+<h3>lcs_circular_max</h3>
+<h3>lcs_circular_mean</h3>
+<h3>lcs_circular_min</h3>
+
+<a href="https://pypi.org/project/pylcs/">https://pypi.org/project/pylcs/</a>
+
+<ul>
+
+<li>max variation</li>
+
+\(= 1 - \frac{lcs\_length}{max(len(A), len(B))}\)
+
+<li>mean variation</li>
+
+\(= 1 - \frac{lcs\_length}{mean(len(A), len(B))}\)
+
+<li>min variation</li>
+
+\(= 1 - \frac{lcs\_length}{min(len(A), len(B))}\)
+
+<li>circular variation</li>
+
+Computes all the transpositions of sequence B.
+
+</ul>
+
+<h3>levenshtein_max</h3>
+<h3>levenshtein_mean</h3>
+<h3>levenshtein_min</h3>
+<h3>levenshtein_circular_max</h3>
+<h3>levenshtein_circular_mean</h3>
+<h3>levenshtein_circular_min</h3>
+
+<a href="https://pypi.org/project/python-Levenshtein/">https://pypi.org/project/python-Levenshtein/</a>
+
+<ul>
+
+<li>max variation</li>
+
+\(= \frac{levenshtein\_distance}{max(len(A), len(B))}\)
+
+<li>mean variation</li>
+
+\(= \frac{levenshtein\_distance}{mean(len(A), len(B))}\)
+
+<li>min variation</li>
+
+\(= \frac{levenshtein\_distance}{min(len(A), len(B))}\)
+
+<li>circular variation</li>
+
+Computes all the transpositions of sequence B.
+
+</ul>
+
 </div>
 
 <script type="module">
